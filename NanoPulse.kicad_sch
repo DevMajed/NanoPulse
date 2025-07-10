@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "86831492-4864-4889-ae52-8b89506c40dd")
+	(paper "A4")
+	(title_block
+		(title "NanoPulse")
+		(date "2025-07-10")
+		(rev "Rev 1")
+		(company "DieTrace")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
