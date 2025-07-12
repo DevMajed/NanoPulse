@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e3de91c0-1bb9-4588-ac1f-193723154419")
+	(paper "A4")
+	(title_block
+		(title "NanoPulse - ADC Driver Stage")
+		(date "2025-07-10")
+		(rev "Rev 1")
+		(company "N-Well Labs\n\n")
+	)
+	(lib_symbols)
+)

@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e7ddf35a-077a-4fe1-bf1b-289ba13c746b")
+	(paper "A4")
+	(title_block
+		(title "NanoPulse - Trigger Circuit")
+		(date "2025-07-11")
+		(rev "Rev 1")
+		(company "N-Well Labs\n\n")
+	)
+	(lib_symbols)
+)

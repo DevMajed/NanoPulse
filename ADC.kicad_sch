@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3003b0cc-08ea-4682-9a6e-61ada0ca2a98")
+	(paper "A4")
+	(title_block
+		(title "NanoPulse - ADC")
+		(date "2025-07-10")
+		(rev "Rev 1")
+		(company "N-Well Labs\n\n")
+	)
+	(lib_symbols)
+)

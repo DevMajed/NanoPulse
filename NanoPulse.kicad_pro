@@ -446,7 +446,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Majed-footprints"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -568,12 +570,12 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "connection_grid_size": 50.0,
+    "connection_grid_size": 100.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
-      "default_line_thickness": 8.0,
-      "default_text_size": 120.0,
+      "default_line_thickness": 9.0,
+      "default_text_size": 100.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -587,7 +589,7 @@
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
+      "pin_symbol_size": 30.0,
       "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
@@ -612,6 +614,42 @@
     [
       "86831492-4864-4889-ae52-8b89506c40dd",
       "Root"
+    ],
+    [
+      "d316b2c4-631c-4bcc-91a6-e005f13d84d0",
+      "Power Management"
+    ],
+    [
+      "a20d702c-1974-49a0-ac5a-8cb500defea7",
+      "MCU-FPGA"
+    ],
+    [
+      "00f50ae2-5d28-4940-8347-0ef8bb69fb96",
+      "ADC"
+    ],
+    [
+      "8f0d12f0-b179-4281-8c43-e729f8a20598",
+      "ADC Driver Stage - Final Buffer CH A"
+    ],
+    [
+      "dab339a6-33d6-4321-af03-924f4dc6f0cd",
+      "ADC Driver Stage - Final Buffer CH B"
+    ],
+    [
+      "2e9bc67b-6ee1-4d35-a3fe-f626da65b648",
+      "Single To Differential Driver Stage CH A"
+    ],
+    [
+      "efab2b5c-4396-4aa9-b4a3-81687e05e792",
+      "Single To Differential Driver Stage CH B"
+    ],
+    [
+      "4e526956-09b7-4be8-ad1c-72f0b7e653f8",
+      "Voltage Translator"
+    ],
+    [
+      "dea7d86a-b52d-4791-bfea-897f34946032",
+      "Trigger Circuit"
     ]
   ],
   "text_variables": {}

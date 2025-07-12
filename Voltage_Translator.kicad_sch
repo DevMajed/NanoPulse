@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "109fedbe-3ed3-474a-81a1-7cca4ed940ca")
+	(paper "A4")
+	(title_block
+		(title "NanoPulse - Violtage Translator")
+		(date "2025-07-11")
+		(rev "Rev1")
+		(company "N-Well Labs\n\n")
+	)
+	(lib_symbols)
+)

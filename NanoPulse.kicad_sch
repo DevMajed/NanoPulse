@@ -8,9 +8,659 @@
 		(title "NanoPulse")
 		(date "2025-07-10")
 		(rev "Rev 1")
-		(company "DieTrace")
+		(company "N-Well Labs\n\n")
 	)
 	(lib_symbols)
+	(text "Power Generation & Filtering Subsystem\n"
+		(exclude_from_sim no)
+		(at 229.362 118.618 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 3.81 3.81)
+				(bold yes)
+				(color 255 66 114 1)
+			)
+		)
+		(uuid "20f115ef-c281-4c97-a1eb-15522852b722")
+	)
+	(text "Digital Control and Timing"
+		(exclude_from_sim no)
+		(at 226.568 16.764 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 3.81 3.81)
+				(bold yes)
+				(color 255 66 114 1)
+			)
+		)
+		(uuid "45d02629-3e20-47b0-a20b-d1cebf545db9")
+	)
+	(text "Analog front-end"
+		(exclude_from_sim no)
+		(at 92.71 16.764 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 3.81 3.81)
+				(bold yes)
+				(color 255 66 114 1)
+			)
+		)
+		(uuid "d8895c53-f8f1-4e02-baa8-e2f4f6bda71c")
+	)
+	(text "ADC Chip"
+		(exclude_from_sim no)
+		(at 91.948 118.618 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 3.81 3.81)
+				(bold yes)
+				(color 255 66 114 1)
+			)
+		)
+		(uuid "f310cd0d-0aff-4056-9530-99d7b3352261")
+	)
+	(polyline
+		(pts
+			(xy 281.94 121.92) (xy 176.53 121.92)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "18742f99-5b77-4ace-81ac-5cbe140b9e28")
+	)
+	(polyline
+		(pts
+			(xy 176.53 110.49) (xy 281.94 110.49)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "2175a48e-50f6-4194-90df-60d6980cdfd7")
+	)
+	(polyline
+		(pts
+			(xy 21.59 110.49) (xy 168.91 110.49)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "25cf0a17-9c1f-424c-8ef7-aa45b073fb23")
+	)
+	(polyline
+		(pts
+			(xy 168.91 121.92) (xy 21.59 121.92)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "346d97a6-38d1-4e52-99e1-1c8929502ce6")
+	)
+	(polyline
+		(pts
+			(xy 176.53 105.41) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "3870ad7b-4591-420c-9816-58e3a637a057")
+	)
+	(polyline
+		(pts
+			(xy 168.91 110.49) (xy 168.91 20.32)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "47ee0639-3975-44c5-90c1-a51a7dd7ee5e")
+	)
+	(polyline
+		(pts
+			(xy 21.59 105.41) (xy 21.59 110.49)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "4a30a031-4f26-406d-9215-586491ccc003")
+	)
+	(polyline
+		(pts
+			(xy 281.94 110.49) (xy 281.94 20.32)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "4ee7067b-44d8-4bab-92ef-6918095546e6")
+	)
+	(polyline
+		(pts
+			(xy 176.53 163.83) (xy 281.94 163.83)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "63292a36-852b-469e-8af6-38869f0ebe3e")
+	)
+	(polyline
+		(pts
+			(xy 281.94 121.92) (xy 281.94 163.83)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "81b3dfee-4e0a-4247-a074-7b23f805341a")
+	)
+	(polyline
+		(pts
+			(xy 167.64 163.83) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "89ac12c2-09aa-4210-922c-43131557ae4f")
+	)
+	(polyline
+		(pts
+			(xy 21.59 20.32) (xy 21.59 105.41)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "9a765615-ddb4-4407-87c4-65d799368d2d")
+	)
+	(polyline
+		(pts
+			(xy 62.23 163.83) (xy 21.59 163.83)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "aa3080a5-e32a-496e-b5f2-1757f1e25422")
+	)
+	(polyline
+		(pts
+			(xy 176.53 20.32) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "dd4b7b67-7d2e-448f-8903-2284a7ec0ba7")
+	)
+	(polyline
+		(pts
+			(xy 62.23 163.83) (xy 167.64 163.83)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "e9755296-201a-49c4-9089-45bdfde893e3")
+	)
+	(polyline
+		(pts
+			(xy 21.59 163.83) (xy 21.59 121.92)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "ecc62fe2-def7-4475-bffc-bcc9b932b39b")
+	)
+	(polyline
+		(pts
+			(xy 281.94 20.32) (xy 176.53 20.32)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "ece2bf00-f9cd-463a-9d38-1101ec91624b")
+	)
+	(polyline
+		(pts
+			(xy 168.91 20.32) (xy 21.59 20.32)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "efd25350-e499-4aeb-94c1-8bf41ee9500b")
+	)
+	(polyline
+		(pts
+			(xy 176.53 121.92) (xy 176.53 163.83)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "f5269a2d-55e5-48b1-9591-4a5c2ed91b58")
+	)
+	(polyline
+		(pts
+			(xy 168.91 121.92) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "f9359f1f-ae6c-4529-b3f3-b32fb094900d")
+	)
+	(sheet
+		(at 77.47 129.54)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00f50ae2-5d28-4940-8347-0ef8bb69fb96")
+		(property "Sheetname" "ADC"
+			(at 88.138 128.524 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 79.756 157.48 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 74.93)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e9bc67b-6ee1-4d35-a3fe-f626da65b648")
+		(property "Sheetname" "Single To Differential Driver Stage CH A"
+			(at 28.194 73.152 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Single_To_Diff_Driver_Stage.kicad_sch"
+			(at 27.686 103.124 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 29.21)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e526956-09b7-4be8-ad1c-72f0b7e653f8")
+		(property "Sheetname" "Voltage Translator"
+			(at 243.078 27.94 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Voltage_Translator.kicad_sch"
+			(at 235.712 57.404 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 29.21)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f0d12f0-b179-4281-8c43-e729f8a20598")
+		(property "Sheetname" "ADC Driver Stage - Final Buffer CH A"
+			(at 26.416 28.1174 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC_Driver_Stage-Final-Buffer.kicad_sch"
+			(at 27.178 57.404 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 74.93)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a20d702c-1974-49a0-ac5a-8cb500defea7")
+		(property "Sheetname" "MCU-FPGA"
+			(at 217.17 73.152 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU-FPGA.kicad_sch"
+			(at 209.804 103.124 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 129.54)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d316b2c4-631c-4bcc-91a6-e005f13d84d0")
+		(property "Sheetname" "Power Management"
+			(at 211.328 127.508 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Management_sch.kicad_sch"
+			(at 202.946 157.734 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 29.21)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dab339a6-33d6-4321-af03-924f4dc6f0cd")
+		(property "Sheetname" "ADC Driver Stage - Final Buffer CH B"
+			(at 100.076 28.1174 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC_Driver_Stage-Final-Buffer.kicad_sch"
+			(at 100.838 57.404 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 29.21)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dea7d86a-b52d-4791-bfea-897f34946032")
+		(property "Sheetname" "Trigger Circuit"
+			(at 187.452 28.194 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Trigger_Circuit.kicad_sch"
+			(at 179.324 57.404 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 74.93)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efab2b5c-4396-4aa9-b4a3-81687e05e792")
+		(property "Sheetname" "Single To Differential Driver Stage CH B"
+			(at 101.6 73.152 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Single_To_Diff_Driver_Stage.kicad_sch"
+			(at 101.346 103.124 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(page "8")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

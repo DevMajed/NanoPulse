@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0de1bccf-d907-4274-90d1-5e07fa4be112")
+	(paper "A4")
+	(title_block
+		(title "NanoPulse - MCU-FPGA")
+		(date "2025-07-10")
+		(rev "Rev 1")
+		(company "N-Well Labs\n\n")
+	)
+	(lib_symbols)
+)

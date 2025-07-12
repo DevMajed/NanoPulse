@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "baab2156-9685-424c-81d4-0c597de2dfa5")
+	(paper "A4")
+	(title_block
+		(title "NanoPulse - Single to Diff Driver")
+		(date "2025-07-11")
+		(rev "Rev 1 ")
+		(company "N-Well Labs\n\n")
+	)
+	(lib_symbols)
+)
