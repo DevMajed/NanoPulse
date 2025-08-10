@@ -3,6 +3,9 @@ Hardware project — firmware will live in another repo.
 
 # Purpose & Use Cases
 **NanoPulse** is a 2-channel, 24-bit, trigger-synchronized digitizer for **µs-scale pulses**. It gives a cleaner, more deterministic “scope view” with higher vertical resolution, lower drift, and easy automation in a tiny form factor.
+- What: 24-bit, 2-channel digitizer for µs pulses (hundreds of kHz BW).  
+- For: labs validating pulse shape, battery DCIR, and rail transients, Ultrasonic/sonar echo logger (lab/test-tank, 40–300 kHz)
+- Why: cleaner data than 8–12-bit scopes, deterministic trigger, tiny + scriptable.
 
 <img width="1976" height="1343" alt="image" src="https://github.com/user-attachments/assets/27db298e-53ce-4721-a3fc-f0237d6d417a" />
 
