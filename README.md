@@ -21,7 +21,18 @@ Hardware project, the firmware will be in another repo.
 - Usable analog BW: ~**300–600 kHz** (tunable with RCs)
 - Practical “clean shape” pulse widths: **≥ 5–10 µs** (2 MSPS sampling)
 
+
 ---
+
+## Design Highlights (Decisions & Rationale)
+- **Anti-alias vs. settling (µs pulses in mind):** modest input Rs (~54 Ω) and small caps (≈1–2.7 nF) around the FDA target a **few-hundred-kHz to ~1 MHz** shaping—enough to see µs edges while improving settling and noise.
+- **Low-drift reference path:** **LTC6655-5** with **10 µF + 0.1 µF** close to ADC REF minimizes baseline wander in long captures.
+- **Trigger integrity:** External TRIG goes through a **Schmitt buffer + enable/OR logic** to produce a crisp **CNV**; **50 Ω** termination is **optional** for DDG/coax use.
+- **Signal integrity at the converter:** **33 Ω series** per ADC input leg for damping; **22–33 Ω** on **CNV** after level translation to tame edges.
+- **Clean domain split:** Translators isolate the quiet **1.8 V ADC** domain from **3.3 V MCU**, enabling fast SPI and **BUSY** handshaking.
+
+---
+
 
 
 ## 1) Scope-replacement for pulsed benches (µs pulses)
