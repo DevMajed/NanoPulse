@@ -7,6 +7,23 @@ Hardware project, the firmware will be in another repo.
 
 ---
 
+
+## Headline Specs
+- **ADC:** Analog Devices **AD4630-24**, up to **2 MSPS**, 24-bit  
+- **Channels:** 2 differential, fully-differential amp (FDA) driven  
+- **Trigger:** external **TRIG IN** → Schmitt-conditioned → CNV; **Manual Trigger** pad on board  
+- **I/O domains:** **1.8 V** (ADC) and **3.3 V** (MCU) with level translators  
+- **Reference:** **LTC6655-5** low-noise, low-drift  
+- **Rails:** **LT3042** (+5.4 V), **LT3093** (−5.4 V), **LT1763** (1.8 V & 3.3 V)  
+- **Configurable 50 Ω trigger termination** for DDG/coax use (DNP by default)
+
+**Bandwidth envelope (typical build):**
+- Usable analog BW: ~**300–600 kHz** (tunable with RCs)
+- Practical “clean shape” pulse widths: **≥ 5–10 µs** (2 MSPS sampling)
+
+---
+
+
 ## 1) Scope-replacement for pulsed benches (µs pulses)
 
 **What it solves**  
