@@ -7,7 +7,8 @@ Hardware project — firmware will live in another repo.
 - For: labs validating pulse shape, battery DCIR, and rail transients, Ultrasonic/sonar echo logger (lab/test-tank, 40–300 kHz)
 - Why: cleaner data than 8–12-bit scopes, deterministic trigger, tiny + scriptable.
 
-<img width="1976" height="1343" alt="image" src="https://github.com/user-attachments/assets/27db298e-53ce-4721-a3fc-f0237d6d417a" />
+<img width="1640" height="1232" alt="image" src="https://github.com/user-attachments/assets/f39dd54e-5cb6-440e-b4e3-ff48722fe914" />
+<img width="1648" height="1255" alt="image" src="https://github.com/user-attachments/assets/6eceae15-418f-4ea3-a187-96d090b29d59" />
 <img width="1677" height="1273" alt="image" src="https://github.com/user-attachments/assets/bbf92680-edae-4217-9a02-facd6c753447" />
 
 ---
