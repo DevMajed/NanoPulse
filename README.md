@@ -10,6 +10,9 @@ Hardware project — firmware will live in another repo.
 <img width="1640" height="1232" alt="image" src="https://github.com/user-attachments/assets/f39dd54e-5cb6-440e-b4e3-ff48722fe914" />
 <img width="1648" height="1255" alt="image" src="https://github.com/user-attachments/assets/6eceae15-418f-4ea3-a187-96d090b29d59" />
 <img width="1677" height="1273" alt="image" src="https://github.com/user-attachments/assets/bbf92680-edae-4217-9a02-facd6c753447" />
+<img width="1846" height="1274" alt="image" src="https://github.com/user-attachments/assets/a20e69d0-9ce0-4e9c-bd18-316c6d0c9e7b" />
+<img width="1401" height="685" alt="image" src="https://github.com/user-attachments/assets/b4ad2e43-acba-48c7-a2ec-a92c9aa1a6c1" />
+<img width="1868" height="1287" alt="image" src="https://github.com/user-attachments/assets/e34700e9-13ce-46a2-99cf-c07915ce7c67" />
 
 ---
 
