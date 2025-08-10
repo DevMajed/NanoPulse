@@ -4,6 +4,8 @@ Hardware project — firmware will live in another repo.
 ## Elevator Pitch
 **NanoPulse** is a 2-channel, 24-bit, trigger-synchronized digitizer for **µs-scale pulses**. It gives a cleaner, more deterministic “scope view” with higher vertical resolution, lower drift, and easy automation in a tiny form factor.
 
+<img width="1976" height="1343" alt="image" src="https://github.com/user-attachments/assets/27db298e-53ce-4721-a3fc-f0237d6d417a" />
+
 ---
 
 # Purpose & Use Cases
@@ -128,5 +130,3 @@ CSV + auto-generated plot with annotated droop/settling metrics.
 - For **ns edges/RF**, use a high-BW DSO/GHz digitizer.
 
 ---
-
-## Repo Structure
