@@ -8,6 +8,7 @@ Hardware project — firmware will live in another repo.
 - Why: cleaner data than 8–12-bit scopes, deterministic trigger, tiny + scriptable.
 
 <img width="1976" height="1343" alt="image" src="https://github.com/user-attachments/assets/27db298e-53ce-4721-a3fc-f0237d6d417a" />
+<img width="1677" height="1273" alt="image" src="https://github.com/user-attachments/assets/bbf92680-edae-4217-9a02-facd6c753447" />
 
 ---
 
