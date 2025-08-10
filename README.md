@@ -1,7 +1,7 @@
 # NanoPulse – A Precision 24-bit Pulse Capture Digitizer
 Hardware project — firmware will live in another repo.
 
-## Elevator Pitch
+# Purpose & Use Cases
 **NanoPulse** is a 2-channel, 24-bit, trigger-synchronized digitizer for **µs-scale pulses**. It gives a cleaner, more deterministic “scope view” with higher vertical resolution, lower drift, and easy automation in a tiny form factor.
 
 <img width="1976" height="1343" alt="image" src="https://github.com/user-attachments/assets/27db298e-53ce-4721-a3fc-f0237d6d417a" />
