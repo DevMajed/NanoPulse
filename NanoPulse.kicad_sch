@@ -5836,7 +5836,7 @@
 	)
 	(sheet
 		(at 228.6 64.77)
-		(size 29.21 26.67)
+		(size 35.56 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5868,7 +5868,7 @@
 				(hide yes)
 			)
 		)
-		(pin "Trigger_Signal" input
+		(pin "CNV_EXT_RAW" input
 			(at 228.6 76.2 180)
 			(uuid "b4fb128b-2a1d-4794-b28b-727f57b39c63")
 			(effects

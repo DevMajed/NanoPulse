@@ -1305,12 +1305,6 @@
 		(uuid "0a64759e-11ac-44df-bf75-e29887318e3f")
 	)
 	(junction
-		(at 59.69 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1234ccbb-b66e-4922-8fdc-a453cc8cceb7")
-	)
-	(junction
 		(at 189.23 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1520,7 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 85.09) (xy 59.69 81.28)
+			(xy 64.77 85.09) (xy 64.77 81.28)
 		)
 		(stroke
 			(width 0.635)
@@ -1710,7 +1704,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 81.28) (xy 55.88 81.28)
+			(xy 64.77 81.28) (xy 60.96 81.28)
 		)
 		(stroke
 			(width 0.635)
@@ -1930,16 +1924,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 92.71) (xy 59.69 92.71)
-		)
-		(stroke
-			(width 0.635)
-			(type default)
-		)
-		(uuid "b71fa128-cd49-41ce-8d40-3c1814cb553a")
-	)
-	(wire
-		(pts
 			(xy 64.77 57.15) (xy 64.77 55.88)
 		)
 		(stroke
@@ -2060,7 +2044,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 59.69 92.71)
+			(xy 64.77 90.17) (xy 64.77 92.71)
 		)
 		(stroke
 			(width 0.635)
@@ -2110,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 92.71) (xy 53.34 92.71)
+			(xy 53.34 92.71) (xy 64.77 92.71)
 		)
 		(stroke
 			(width 0.635)
@@ -2236,7 +2220,7 @@
 	)
 	(global_label "REF_5V"
 		(shape input)
-		(at 55.88 81.28 180)
+		(at 60.96 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2247,7 +2231,7 @@
 		)
 		(uuid "6260d2ed-dc9c-41e9-97a5-ddeceaff3f67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.6455 81.28 0)
+			(at 50.7255 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2241,7 @@
 			)
 		)
 		(property "Dsc" "VAMP+"
-			(at 55.88 83.566 0)
+			(at 60.96 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3443,7 @@
 	)
 	(symbol
 		(lib_id "majed-symbols:R_Small_US")
-		(at 59.69 87.63 0)
+		(at 64.77 87.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3468,7 +3452,7 @@
 		(dnp no)
 		(uuid "7fc261ed-20aa-4f57-bcdc-61b5fd6fbe74")
 		(property "Reference" "R46"
-			(at 63.5 89.027 0)
+			(at 68.58 89.027 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3460,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 63.5 86.7156 0)
+			(at 68.58 86.7156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3468,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 59.69 87.63 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 87.63 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3486,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 59.69 87.63 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3495,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 59.69 87.63 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3504,7 @@
 			)
 		)
 		(property "Digikey" "311-10.0KHRCT-ND"
-			(at 59.69 87.63 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3513,7 @@
 			)
 		)
 		(property "Mfg part #" "RC0603FR-0710KL"
-			(at 59.69 87.63 0)
+			(at 64.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)

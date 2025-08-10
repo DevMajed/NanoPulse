@@ -1283,6 +1283,16 @@
 		)
 		(uuid bcfe0451-bea4-4af7-b102-92dc22834bdc)
 	)
+	(text "Populate R71 only when using external 50 Ω trigger"
+		(exclude_from_sim no)
+		(at 93.218 61.468 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "978e88d9-c7b8-4bf3-b16b-82ef90618029")
+	)
 	(text "Trigger Circuit"
 		(exclude_from_sim no)
 		(at 149.86 49.53 0)
@@ -1303,6 +1313,18 @@
 		(uuid "0c327ca3-b51f-4f64-952e-faf167582588")
 	)
 	(junction
+		(at 240.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ebd5f80-b748-4b02-941c-0c58090f5877")
+	)
+	(junction
+		(at 137.16 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f25bd0c-8140-4f0a-aa7c-42f02d8446dc")
+	)
+	(junction
 		(at 137.16 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1321,6 +1343,12 @@
 		(uuid "584e9547-2433-4f65-a1bb-fba9299be893")
 	)
 	(junction
+		(at 224.79 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6be65741-a28e-4362-8cc2-14a2eac368c1")
+	)
+	(junction
 		(at 160.02 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1331,6 +1359,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b69939e6-7df7-4219-8778-1d487b1a9d00")
+	)
+	(junction
+		(at 179.07 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c54021a3-aa27-438f-8cdc-4f2b829ffe00")
+	)
+	(junction
+		(at 91.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8750c00-fc04-408e-a538-3e2fc1e1a115")
+	)
+	(junction
+		(at 74.93 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0b530e1-9d2a-4811-8d79-9e6b3448bc07")
 	)
 	(junction
 		(at 182.88 90.17)
@@ -1367,6 +1413,16 @@
 			(type default)
 		)
 		(uuid "12a99005-a710-4c9e-a745-89670c877123")
+	)
+	(wire
+		(pts
+			(xy 240.03 73.66) (xy 242.57 73.66)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "16dcb223-4d51-4731-95e4-4a0b146aef6e")
 	)
 	(wire
 		(pts
@@ -1410,6 +1466,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 99.06) (xy 93.98 99.06)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "1fdc9fd7-8ae1-405d-9c07-0b113be31335")
+	)
+	(wire
+		(pts
+			(xy 74.93 91.44) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2174cb13-64b5-4613-be63-2986d71e7b26")
+	)
+	(wire
+		(pts
 			(xy 177.8 97.79) (xy 163.83 97.79)
 		)
 		(stroke
@@ -1440,6 +1516,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 100.33) (xy 242.57 100.33)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "30737782-0f8a-4390-b9de-cd07be389b86")
+	)
+	(wire
+		(pts
 			(xy 123.19 119.38) (xy 128.27 119.38)
 		)
 		(stroke
@@ -1460,13 +1546,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 99.06) (xy 92.71 99.06)
+			(xy 133.35 110.49) (xy 133.35 139.7)
 		)
 		(stroke
 			(width 0.381)
 			(type default)
 		)
-		(uuid "3855ea1c-5ce1-43a5-ba8f-688f00baab9e")
+		(uuid "39f87158-82dc-4574-bbb7-8d78520406e6")
+	)
+	(wire
+		(pts
+			(xy 224.79 100.33) (xy 240.03 100.33)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "41a035c8-fbca-414a-a193-b52db33a9745")
 	)
 	(wire
 		(pts
@@ -1480,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 99.06) (xy 82.55 99.06)
+			(xy 71.12 99.06) (xy 74.93 99.06)
 		)
 		(stroke
 			(width 0.381)
@@ -1497,6 +1593,16 @@
 			(type default)
 		)
 		(uuid "535d5b85-6833-4a4c-91e1-a556e9f3602d")
+	)
+	(wire
+		(pts
+			(xy 179.07 118.11) (xy 184.15 118.11)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "65e9f7ab-ba81-4a55-b838-bd2245218730")
 	)
 	(wire
 		(pts
@@ -1530,6 +1636,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "83739b95-4d20-409a-9731-2378702c304c")
+	)
+	(wire
+		(pts
+			(xy 219.71 127) (xy 224.79 127)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "85be2f42-aaf8-4000-b1c3-a0c72fcb6483")
+	)
+	(wire
+		(pts
 			(xy 160.02 99.06) (xy 160.02 107.95)
 		)
 		(stroke
@@ -1537,6 +1663,16 @@
 			(type default)
 		)
 		(uuid "a1c40932-e135-4de5-bd84-7362fa9af892")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "a2e7272e-0f6f-48ea-acd2-0b4111f23809")
 	)
 	(wire
 		(pts
@@ -1560,6 +1696,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 100.33) (xy 240.03 73.66)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "bd02cebc-4097-43af-8b65-14550e29d399")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 82.55 99.06)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "c2d71052-5557-4e1f-9999-40ac83c1db91")
+	)
+	(wire
+		(pts
 			(xy 184.15 118.11) (xy 184.15 102.87)
 		)
 		(stroke
@@ -1567,6 +1723,16 @@
 			(type default)
 		)
 		(uuid "c9ad5d5a-3c65-4c5d-9820-a897e0d5c7ba")
+	)
+	(wire
+		(pts
+			(xy 219.71 127) (xy 219.71 137.16)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "d01c7cf2-ea2d-44ee-a2d1-07abb8350b8f")
 	)
 	(wire
 		(pts
@@ -1580,6 +1746,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 110.49) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "d1c80c87-dbc6-4b3e-9b50-6aa4eb79699a")
+	)
+	(wire
+		(pts
 			(xy 208.28 76.2) (xy 208.28 80.01)
 		)
 		(stroke
@@ -1590,7 +1766,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 137.16 120.65)
+			(xy 224.79 100.33) (xy 224.79 127)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "d3982f59-3d79-48e4-82fc-ea25e16cc726")
+	)
+	(wire
+		(pts
+			(xy 137.16 99.06) (xy 137.16 110.49)
 		)
 		(stroke
 			(width 0.381)
@@ -1610,17 +1796,37 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 99.06) (xy 109.22 99.06)
+			(xy 179.07 118.11) (xy 179.07 137.16)
 		)
 		(stroke
 			(width 0.381)
 			(type default)
 		)
-		(uuid "f3124da6-c170-4035-9884-e70f8b0c77e8")
+		(uuid "e1118eb1-de80-4068-9688-af7eed84a5a3")
 	)
 	(wire
 		(pts
-			(xy 172.72 118.11) (xy 184.15 118.11)
+			(xy 91.44 86.36) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "e96bddc4-9ec0-42bd-afca-9f89cc7cf867")
+	)
+	(wire
+		(pts
+			(xy 179.07 137.16) (xy 182.88 137.16)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "efe9bb82-498e-40ce-952a-86732b89da94")
+	)
+	(wire
+		(pts
+			(xy 172.72 118.11) (xy 179.07 118.11)
 		)
 		(stroke
 			(width 0.381)
@@ -1630,7 +1836,27 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 100.33) (xy 238.76 100.33)
+			(xy 59.69 91.44) (xy 74.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c27d56-bb8d-465d-8808-fa35e930945b")
+	)
+	(wire
+		(pts
+			(xy 137.16 110.49) (xy 137.16 120.65)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "fa106964-8347-410e-af4e-b149080b6aba")
+	)
+	(wire
+		(pts
+			(xy 220.98 100.33) (xy 224.79 100.33)
 		)
 		(stroke
 			(width 0.381)
@@ -1648,9 +1874,49 @@
 		)
 		(uuid "ff840fc4-2e0b-428d-8309-733d50ee8640")
 	)
+	(label "CNV_GATED_3V3"
+		(at 182.88 137.16 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "1822a836-9db9-42a1-a88f-382ca1540d85")
+	)
+	(label "CNV_EXT_3V3"
+		(at 133.35 139.7 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f704cd1-96d7-43b6-b4c9-39b66676475d")
+	)
+	(label "CNV_3V3_OUT"
+		(at 219.71 137.16 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "7462d009-d3c6-4ca9-b1d4-afbf6b2afb05")
+	)
+	(label "CNV_EXT_RAW"
+		(at 59.69 91.44 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fec1cde-8e27-47a0-88da-7776c18e0190")
+	)
 	(global_label "CNV_3.3"
 		(shape input)
-		(at 238.76 100.33 0)
+		(at 242.57 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1660,7 +1926,7 @@
 		)
 		(uuid "07cb17e8-26f4-49f9-bbee-556c3439a3ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.1803 91.44 0)
+			(at 250.9903 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +2074,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Trigger_Signal"
+	(hierarchical_label "CNV_EXT_RAW"
 		(shape input)
 		(at 71.12 99.06 180)
 		(effects
@@ -2217,7 +2483,7 @@
 		(dnp no)
 		(uuid "2ab4e825-1626-4fbc-9162-ebc3658c9544")
 		(property "Reference" "C84"
-			(at 171.45 97.79 0)
+			(at 172.212 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,6 +2799,99 @@
 		)
 	)
 	(symbol
+		(lib_id "majed-symbols:TestPoint")
+		(at 91.44 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ee62f4b-3dc7-4ee5-9cf9-443ec3f3faa5")
+		(property "Reference" "TP20"
+			(at 96.901 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CNV_EXT_RAW"
+			(at 91.694 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" ""
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c20c3be6-197f-46f2-b87d-2663c253d2fd")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dea7d86a-b52d-4791-bfea-897f34946032"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "majed-symbols:GND")
 		(at 208.28 110.49 0)
 		(unit 1)
@@ -2608,7 +2967,7 @@
 		(dnp no)
 		(uuid "4c7fb03e-5d9f-4d27-85ae-979be374cbf8")
 		(property "Reference" "C85"
-			(at 229.87 80.01 0)
+			(at 230.124 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,6 +3148,99 @@
 	)
 	(symbol
 		(lib_id "majed-symbols:TestPoint")
+		(at 242.57 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75cb5c87-9ec1-4358-a297-651be48e5683")
+		(property "Reference" "TP21"
+			(at 248.031 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CNV_3V3_OUT"
+			(at 242.824 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 247.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" ""
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed7a1d48-f27c-4c7a-970c-4eeddfcdff3d")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dea7d86a-b52d-4791-bfea-897f34946032"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:TestPoint")
 		(at 144.78 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2941,6 +3393,101 @@
 			(project "NanoPulse"
 				(path "/86831492-4864-4889-ae52-8b89506c40dd/dea7d86a-b52d-4791-bfea-897f34946032"
 					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 97.79 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "933c4870-00ed-425b-8f5a-c95c2b08c0c0")
+		(property "Reference" "R72"
+			(at 97.79 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 97.79 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.536 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-33GRCT-ND"
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RC0603FR-072KL"
+			(at 97.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0fec5d2-6011-4e62-a615-847268a11e9c")
+		)
+		(pin "1"
+			(uuid "cdcc7098-b89e-4c70-923f-31551fa09693")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dea7d86a-b52d-4791-bfea-897f34946032"
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -3190,101 +3737,6 @@
 				(path "/86831492-4864-4889-ae52-8b89506c40dd/dea7d86a-b52d-4791-bfea-897f34946032"
 					(reference "U18")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "majed-symbols:R_US")
-		(at 96.52 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc522b44-c9da-45e7-b6c3-d5e04fb72c57")
-		(property "Reference" "R72"
-			(at 96.52 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "500"
-			(at 96.52 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.266 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 96.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 96.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "13-RT0603BRC07500RLCT-ND"
-			(at 96.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg part #" "RT0603BRC07500RL"
-			(at 96.52 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97df9329-5d3d-4177-87e7-74df9cde8d3d")
-		)
-		(pin "2"
-			(uuid "cffe6cf9-4046-422e-93d5-349b4ebdc9af")
-		)
-		(instances
-			(project "NanoPulse"
-				(path "/86831492-4864-4889-ae52-8b89506c40dd/dea7d86a-b52d-4791-bfea-897f34946032"
-					(reference "R72")
-					(unit 1)
 				)
 			)
 		)

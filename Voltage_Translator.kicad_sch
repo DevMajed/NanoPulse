@@ -2008,6 +2008,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "majed-symbols:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 2.54 2.794 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 2.286 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg part #" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(arc
 		(start 81.2523 143.5239)
@@ -2220,18 +2356,6 @@
 		(uuid "22963161-23a2-49d7-983e-e9458b60cd81")
 	)
 	(junction
-		(at 217.17 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48fd9ab0-67d8-4856-b8f2-63c63f24c4da")
-	)
-	(junction
-		(at 222.25 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54a33857-d6f1-41df-b6dc-01908416382f")
-	)
-	(junction
 		(at 87.63 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2274,10 +2398,22 @@
 		(uuid "9d6b0355-14bf-428d-90ea-bc7fbbde253f")
 	)
 	(junction
+		(at 214.63 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af08d7bb-cc55-4f4c-9c51-ec444c0efbc7")
+	)
+	(junction
 		(at 91.44 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af21f333-2682-4889-a455-ee74e0b36972")
+	)
+	(junction
+		(at 30.48 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1a37e09-a635-4b7c-b799-27bad8d86029")
 	)
 	(junction
 		(at 257.81 33.02)
@@ -2559,6 +2695,26 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 96.52) (xy 45.72 96.52)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "385c2095-c3bc-4f95-986e-5335587b516c")
+	)
+	(wire
+		(pts
+			(xy 39.37 81.28) (xy 40.64 81.28)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "3c4bedce-448e-45cf-9cd1-9d2cc12d6706")
+	)
+	(wire
+		(pts
 			(xy 88.9 50.8) (xy 91.44 50.8)
 		)
 		(stroke
@@ -2589,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 81.28) (xy 40.64 81.28)
+			(xy 27.94 81.28) (xy 30.48 81.28)
 		)
 		(stroke
 			(width 0.635)
@@ -2729,7 +2885,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 96.52) (xy 214.63 92.71)
+			(xy 214.63 96.52) (xy 214.63 93.98)
 		)
 		(stroke
 			(width 0.635)
@@ -2819,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 86.36) (xy 31.75 86.36)
+			(xy 45.72 86.36) (xy 41.91 86.36)
 		)
 		(stroke
 			(width 0.635)
@@ -2836,6 +2992,16 @@
 			(type default)
 		)
 		(uuid "888cc653-c05b-4906-ac40-8ff0041ccf35")
+	)
+	(wire
+		(pts
+			(xy 214.63 93.98) (xy 214.63 92.71)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "890ba609-d652-4930-b0d6-cc00a8922524")
 	)
 	(wire
 		(pts
@@ -2929,16 +3095,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 96.52) (xy 222.25 96.52)
-		)
-		(stroke
-			(width 0.635)
-			(type default)
-		)
-		(uuid "9c92f02c-36da-4430-a1fe-439672ea55e1")
-	)
-	(wire
-		(pts
 			(xy 43.18 29.21) (xy 43.18 38.1)
 		)
 		(stroke
@@ -3006,6 +3162,16 @@
 			(type default)
 		)
 		(uuid "b91f01ec-3d7b-4d24-9641-f2213efb3cd0")
+	)
+	(wire
+		(pts
+			(xy 30.48 81.28) (xy 30.48 96.52)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "bb991d4c-d45e-49f0-a8ab-885b254bb584")
 	)
 	(wire
 		(pts
@@ -3166,6 +3332,16 @@
 			(type default)
 		)
 		(uuid "ea6af7f1-ca6e-472b-8b5f-c69f6a0dcbcb")
+	)
+	(wire
+		(pts
+			(xy 30.48 81.28) (xy 31.75 81.28)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "eaa30ecf-4276-43f0-ab36-67dd1ef146d0")
 	)
 	(wire
 		(pts
@@ -3354,7 +3530,7 @@
 	)
 	(global_label "{slash}RESET"
 		(shape input)
-		(at 31.75 86.36 180)
+		(at 41.91 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3365,7 +3541,7 @@
 		)
 		(uuid "477d1ae9-30ef-424a-8af6-2927aa67fef7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.2132 86.36 0)
+			(at 31.3732 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3652,7 @@
 	)
 	(global_label "CNV"
 		(shape input)
-		(at 34.29 81.28 180)
+		(at 27.94 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3486,7 +3662,7 @@
 		)
 		(uuid "5cef8958-2216-46d0-95e0-2b3f504d6980")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8697 90.17 0)
+			(at 19.5197 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,6 +5073,73 @@
 	)
 	(symbol
 		(lib_id "majed-symbols:GND")
+		(at 214.63 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87b5e81d-08dd-4d00-89f2-4cdfdd6abf5e")
+		(property "Reference" "#PWR0163"
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61955b05-2541-4427-a090-0b7c46c067cd")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/4e526956-09b7-4be8-ad1c-72f0b7e653f8"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
 		(at 105.41 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5819,6 +6062,99 @@
 		)
 	)
 	(symbol
+		(lib_id "majed-symbols:TestPoint")
+		(at 45.72 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3d186c0-1fd2-4920-b65b-100ff5b2f007")
+		(property "Reference" "TP22"
+			(at 51.181 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CNV_1V8_ADC"
+			(at 45.974 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8f54220-f9d3-4fdb-a20d-f9fa339f8cf7")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/4e526956-09b7-4be8-ad1c-72f0b7e653f8"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "majed-symbols:GND")
 		(at 41.91 176.53 0)
 		(unit 1)
@@ -6436,6 +6772,100 @@
 			(project "NanoPulse"
 				(path "/86831492-4864-4889-ae52-8b89506c40dd/4e526956-09b7-4be8-ad1c-72f0b7e653f8"
 					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 35.56 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9008806-9db0-418d-8adc-79b992788155")
+		(property "Reference" "R73"
+			(at 36.594 76.6087 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 36.594 79.1487 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.306 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-33GRCT-ND"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RC0603FR-072KL"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adf42e6a-7649-4a8a-b2f3-69c5c80c1448")
+		)
+		(pin "1"
+			(uuid "820c2d2d-269b-4481-943f-21b2e39049c1")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/4e526956-09b7-4be8-ad1c-72f0b7e653f8"
+					(reference "R73")
 					(unit 1)
 				)
 			)
