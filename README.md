@@ -89,6 +89,32 @@ CSV + auto-generated plot with annotated droop/settling metrics.
 
 ---
 
+
+## 4) Ultrasonic / Sonar Echo Logging (lab/test-tank, 40–300 kHz)
+
+**What it solves**  
+Time-locked recording of **echo waveforms** for TOF, envelope, and multipath analysis—without touching OEM sonar firmware.
+
+**Who it’s for**  
+University acoustics/ultrasound labs, NDT benches, AUV/ROV research groups.
+
+**Hook**  
+24-bit dynamic range + deterministic trigger resolves **weak echoes** and small envelope changes better than typical 12–16-bit scopes.
+
+**Connect (minimal extras)**
+- `Receiver/Baseband Out (BNC/SMA)` → `NanoPulse IN` *(stay within input range or use a simple divider)*  
+- `TX Sync/Trigger (TTL)` → `TRIG IN` *(optional on-board 50 Ω)*
+
+**Quick checklist**
+- [ ] Stable ping-to-echo timing (TOF) across repeats  
+- [ ] Envelope + multipath clearly visible in the 40–300 kHz band  
+- [ ] No clipping; baseline drift negligible on long logs
+
+**Output**  
+CSV of echo segments + optional envelope/spectrogram plots via Python.
+
+---
+
 # Headline Specs
 - **ADC:** Analog Devices **AD4630-24**, up to **2 MSPS**, 24-bit  
 - **Channels:** 2 differential, fully-differential amp (FDA) driven  
