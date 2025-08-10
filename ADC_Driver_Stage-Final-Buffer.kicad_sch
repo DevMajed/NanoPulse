@@ -10,5 +10,3654 @@
 		(rev "Rev 1")
 		(company "N-Well Labs\n\n")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "majed-symbols:ADA4896-u_1"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U12"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADA4896-2ARMZ"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "focus-footprints:RM_8_ADI"
+				(at -0.254 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+				(at 0.254 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Rail-to-Rail Input/Output Amplifiers, with disable, SC-70-6/SOT-23-6"
+				(at -0.254 18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "505-ADA4896-2ARMZ-ND "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Analog Devices Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg part #" "ADA4896-2ARMZ "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LFCSP*1EP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADA4896-u_1_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+IN1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-IN1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+VS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-VS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADA4896-u_1_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+IN2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-IN2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 16.51 24.13)
+		(end 165.1 112.268)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 09dc4ba6-c42f-4eca-abe8-8e03a336ed38)
+	)
+	(rectangle
+		(start 16.51 130.81)
+		(end 165.1 171.45)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca94731b-f71e-4d28-93ba-1a2a53bffa79)
+	)
+	(text "Signal Conditioning & Buffering [ IN + ]"
+		(exclude_from_sim no)
+		(at 92.71 18.034 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 3.81 3.81)
+				(bold yes)
+				(color 255 66 114 1)
+			)
+		)
+		(uuid "20729b76-9c8b-494f-99ed-9e243fa74f13")
+	)
+	(text "Signal Conditioning & Buffering [ IN - ]"
+		(exclude_from_sim no)
+		(at 90.17 124.206 0)
+		(effects
+			(font
+				(face "Liberation Sans")
+				(size 3.81 3.81)
+				(bold yes)
+				(color 255 66 114 1)
+			)
+		)
+		(uuid "259efe50-0d49-4588-a11e-c89989d351f4")
+	)
+	(junction
+		(at 76.2 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d188fef-b9fd-41a0-b1c9-8e9ae09e703b")
+	)
+	(junction
+		(at 140.97 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "451a7c6f-54fa-45e6-a1fd-4bcfc3458917")
+	)
+	(junction
+		(at 59.69 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49688c7b-9456-4e8e-8d97-fb0babacbbad")
+	)
+	(junction
+		(at 57.15 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5915f6a9-745e-4c3d-b5cc-8524f1796144")
+	)
+	(junction
+		(at 140.97 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5df6e248-90f4-4e1f-a9e9-ee2fded14e40")
+	)
+	(junction
+		(at 121.92 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fff26da-09de-43bb-992b-c89b03a33bef")
+	)
+	(junction
+		(at 59.69 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e3f325-f3dc-4662-8525-e9f9e0519c02")
+	)
+	(junction
+		(at 76.2 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc06a07f-6fb6-4f4e-a94d-48e5a1d13859")
+	)
+	(junction
+		(at 59.69 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f251c3d3-5f5d-4f25-a27d-c4344bebb9a3")
+	)
+	(junction
+		(at 119.38 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f41aa12d-9d4f-45b3-bbed-67787f152d87")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "0aba3ac4-5cc1-4cfd-ba8c-60c4fce24b8a")
+	)
+	(wire
+		(pts
+			(xy 59.69 35.56) (xy 52.07 35.56)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "1005797f-d579-4f99-9599-06847b1ab6f4")
+	)
+	(wire
+		(pts
+			(xy 76.2 35.56) (xy 99.06 35.56)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "21e3d1d4-896a-4de5-81bf-29e3fbf7222e")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 140.97 76.2)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "239a7ed6-5638-4f5a-be24-4afc129b0758")
+	)
+	(wire
+		(pts
+			(xy 140.97 148.59) (xy 151.13 148.59)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "267f7b99-d30e-4f56-8682-7a5d95113941")
+	)
+	(wire
+		(pts
+			(xy 59.69 92.71) (xy 76.2 92.71)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "295e4909-a5be-4b73-8d45-481a5b0d74ec")
+	)
+	(wire
+		(pts
+			(xy 59.69 35.56) (xy 76.2 35.56)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "2d4318aa-2f4c-483e-9c3b-715f7d8eb981")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 76.2 100.33)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "39ba45b0-b00d-46a7-b869-98fb537fb029")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 99.06 92.71)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "414ecd64-6559-4b3b-aa65-9959e3d4a58a")
+	)
+	(wire
+		(pts
+			(xy 57.15 152.4) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "47d900e1-d90c-4817-b887-44c09b00cfc4")
+	)
+	(wire
+		(pts
+			(xy 59.69 101.6) (xy 59.69 100.33)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "51ba193c-1329-4b32-a706-d93fa14bc8f6")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "6558b589-44ab-4870-8d00-dba36c56a24b")
+	)
+	(wire
+		(pts
+			(xy 137.16 148.59) (xy 140.97 148.59)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "6e94f3a8-6f8e-4e8c-9863-878427548701")
+	)
+	(wire
+		(pts
+			(xy 38.1 146.05) (xy 45.72 146.05)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "7213a58e-cfd4-4299-a3d7-74914fe9ba68")
+	)
+	(wire
+		(pts
+			(xy 140.97 76.2) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "733d91a4-551a-460a-be05-bfc4b17f297e")
+	)
+	(wire
+		(pts
+			(xy 57.15 146.05) (xy 92.71 146.05)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "76e84743-2a7e-47d4-a63b-844e215eaf3d")
+	)
+	(wire
+		(pts
+			(xy 35.56 92.71) (xy 44.45 92.71)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "77fae212-e0cb-4feb-bca8-5c772f5e9b69")
+	)
+	(wire
+		(pts
+			(xy 92.71 151.13) (xy 87.63 151.13)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "79134856-3889-4fa1-aade-d69c4438b5c2")
+	)
+	(wire
+		(pts
+			(xy 52.07 92.71) (xy 59.69 92.71)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "7e7f0950-cf4f-4b93-bbbd-fd1efb5ffdd7")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "816a946c-4619-49c6-8068-65d16aed630d")
+	)
+	(wire
+		(pts
+			(xy 99.06 35.56) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "831a44f0-8416-4d66-bca1-cd335c2bfeac")
+	)
+	(wire
+		(pts
+			(xy 53.34 146.05) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "855489ee-885d-472b-b92b-05c9d1fc7c41")
+	)
+	(wire
+		(pts
+			(xy 57.15 161.29) (xy 57.15 160.02)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "92498481-9b9f-410a-be55-435404aca94d")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 99.06 92.71)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "a0aa3324-7905-48ac-925f-7b5c03e67e26")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "a57a2aa7-daea-4b76-b27d-21db80c2115d")
+	)
+	(wire
+		(pts
+			(xy 107.95 148.59) (xy 121.92 148.59)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "a96165f2-ade7-4364-a188-9f0194eceaf2")
+	)
+	(wire
+		(pts
+			(xy 87.63 151.13) (xy 87.63 160.02)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "b63fa0d9-7e4f-4980-bdb5-d140553b63b3")
+	)
+	(wire
+		(pts
+			(xy 121.92 148.59) (xy 121.92 160.02)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "c09329ae-b2f4-4a80-a77e-3b128bd5a9ae")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 91.44 78.74)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "c3e607f3-d99e-4e67-bc5b-a047b78d7c91")
+	)
+	(wire
+		(pts
+			(xy 36.83 73.66) (xy 44.45 73.66)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "c5df1191-47b7-4f1f-8bd3-d586629166e7")
+	)
+	(wire
+		(pts
+			(xy 52.07 73.66) (xy 59.69 73.66)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "ccba26a7-4abc-44a0-91c0-a91171ee9c2a")
+	)
+	(wire
+		(pts
+			(xy 35.56 35.56) (xy 44.45 35.56)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "ccf9d75c-757b-4519-923a-27caa898b98d")
+	)
+	(wire
+		(pts
+			(xy 87.63 160.02) (xy 121.92 160.02)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "d4bef930-ab8b-490d-96c8-792987860d50")
+	)
+	(wire
+		(pts
+			(xy 87.63 78.74) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "e410eace-845d-4e96-a78b-fbb1ee8cfb57")
+	)
+	(wire
+		(pts
+			(xy 140.97 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "f2b092af-21de-4bc6-9456-4f15ef0331af")
+	)
+	(wire
+		(pts
+			(xy 59.69 73.66) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "f7fe8e4a-99ec-42a3-a022-4dba05cb5a79")
+	)
+	(wire
+		(pts
+			(xy 121.92 148.59) (xy 129.54 148.59)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+		)
+		(uuid "fc1b7ae5-72b1-448c-8383-cc90fa76eb05")
+	)
+	(global_label "+5.4V"
+		(shape input)
+		(at 35.56 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "72e396ab-caea-478e-89b6-ae83d711c2e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.9156 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Disc" "VIO"
+			(at 35.56 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-5.4V"
+		(shape input)
+		(at 35.56 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "b7e7d8bd-ef02-4ad3-a435-2011e6c43842")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.414 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Disc" "VIO"
+			(at 35.56 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "External_IN+"
+		(shape input)
+		(at 36.83 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0dd8b5fc-1308-442d-a079-95b0be86f8aa")
+	)
+	(hierarchical_label "Filtered_IN+"
+		(shape output)
+		(at 151.13 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e5fb06c-c8a1-4e34-a5d5-76c29f55f21c")
+	)
+	(hierarchical_label "Filtered_IN-"
+		(shape output)
+		(at 151.13 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e5314a4-4868-411e-bc31-48fe8798cb6d")
+	)
+	(hierarchical_label "External_IN-"
+		(shape input)
+		(at 38.1 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8de7f7e7-db09-4181-8736-766d8d723afd")
+	)
+	(symbol
+		(lib_id "majed-symbols:ADA4896-u_1")
+		(at 100.33 148.59 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f863d0a-00f8-48ed-8a48-ddecb5b419d3")
+		(property "Reference" "U11"
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4896-2ARMZ"
+			(at 100.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Majed-footprints:RM_8_ADI"
+			(at 100.076 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+			(at 100.584 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Amplifiers, with disable, SC-70-6/SOT-23-6"
+			(at 100.076 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "505-ADA4896-2ARMZ-ND "
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc."
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "ADA4896-2ARMZ "
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ec3bb56-28f2-470f-b369-d08c12a5eafc")
+		)
+		(pin "3"
+			(uuid "e5583d10-f1df-4ac7-b09b-7ba722abd474")
+		)
+		(pin "7"
+			(uuid "49b3f073-7610-4d15-aa64-4bcc2d2e825e")
+		)
+		(pin "8"
+			(uuid "6d4928bd-5aee-4e82-a8cd-5eff8fddf6f1")
+		)
+		(pin "4"
+			(uuid "f0a2847a-916d-4e8c-a619-af69ca306220")
+		)
+		(pin "5"
+			(uuid "4ce99959-5b08-49ab-aa8a-c031714be110")
+		)
+		(pin "6"
+			(uuid "94306c7a-80b9-4b77-84d6-d117a6f150c1")
+		)
+		(pin "2"
+			(uuid "857cd132-da0a-4bad-a481-0713ffa3a834")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "U11")
+					(unit 2)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "U12")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:C")
+		(at 59.69 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1761a76c-085f-4353-83ce-f4599f354354")
+		(property "Reference" "C44"
+			(at 62.23 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF 0603"
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 60.6552 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "399-17568-1-ND"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "C0603C103J5REC7411"
+			(at 59.69 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c158e4e7-d382-47ce-9c81-956fe68c01b2")
+		)
+		(pin "1"
+			(uuid "c0c7b8cc-5502-40b6-9cb5-9f22b393425d")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 59.69 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ba7d27-199c-4b29-8327-17e53ecb480f")
+		(property "Reference" "#PWR0100"
+			(at 59.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5908243-fe9f-4f88-a660-838c21ecd964")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 140.97 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "282a91f7-03a3-4693-8e73-e3fefec61c94")
+		(property "Reference" "#PWR0104"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "290959db-4a74-4fe7-9644-13e396ef6beb")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 140.97 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bf01122-18ca-49ff-9409-77866299b474")
+		(property "Reference" "#PWR0105"
+			(at 140.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47f816eb-b932-451c-a6a5-7c993f86b72d")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:FerriteBead")
+		(at 48.26 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30870be3-3cb3-46f6-8649-ce70524d9813")
+		(property "Reference" "FB9"
+			(at 50.546 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 50.546 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 48.26 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 48.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics "
+			(at 48.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5220-1-ND"
+			(at 48.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "BLM18PG330SN1D"
+			(at 48.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71607541-0045-4548-ae5e-68a572bc798a")
+		)
+		(pin "2"
+			(uuid "e54809d2-e762-4102-86de-755fc0721c08")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "FB9")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "FB11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 49.53 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31137961-4492-4423-9f6d-6c4bb713e4a2")
+		(property "Reference" "R37"
+			(at 49.53 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 49.53 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 49.276 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0CRCT-ND"
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RC0805FR-0710RL "
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39786e10-fabf-40ca-b676-8c894ed2f250")
+		)
+		(pin "1"
+			(uuid "496b8495-9589-4550-b924-3241764bbffb")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:C")
+		(at 59.69 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38ab0e78-7c6f-4b97-917c-4b4fc6879c8b")
+		(property "Reference" "C46"
+			(at 61.214 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF 0603"
+			(at 61.468 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 60.6552 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "399-17568-1-ND"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "C0603C103J5REC7411"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b7c08d3-810a-448c-b137-c522cb079fae")
+		)
+		(pin "1"
+			(uuid "34d91580-6d9b-4875-861b-715334c38ea3")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 57.15 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45b1110e-c1d8-4720-bf19-947303783894")
+		(property "Reference" "#PWR098"
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92cdecf4-4847-49f0-932d-e207bf9c309b")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:C")
+		(at 140.97 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5709cc4f-6791-4d36-9bee-dbb33a87a00c")
+		(property "Reference" "C50"
+			(at 143.764 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000pF"
+			(at 143.764 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 141.9352 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1018-1-ND"
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "CL10B102KB8NNNC"
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b24f600-75c5-4a6a-8016-0feddba20a03")
+		)
+		(pin "1"
+			(uuid "31a44a29-b56c-49ca-b1bf-b2421e3c0a62")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 59.69 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63cb1582-df0a-4791-b509-29bb798c9a1b")
+		(property "Reference" "#PWR099"
+			(at 59.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc2b623-ac65-4ce7-b910-4eb7ae75b411")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 76.2 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7643f64e-0198-4fa2-ba2c-f50c6b3f0265")
+		(property "Reference" "#PWR0102"
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b1b9cbf-884f-49a2-8546-f858b7041ef0")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 59.69 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "833892f8-a4aa-440a-bd51-4420937f14e8")
+		(property "Reference" "#PWR0101"
+			(at 59.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4ddd060-bbb5-4b41-8e0a-09cdc982cde6")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 133.35 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87bbbfc2-aff3-49c5-8aee-2980ea72caf1")
+		(property "Reference" "R39"
+			(at 133.35 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 133.35 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.096 149.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-33GRCT-ND"
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RC0603FR-072KL"
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aad8628f-d6fc-4348-826e-8f19c4427031")
+		)
+		(pin "1"
+			(uuid "16f2c8ca-5a7a-4237-98c1-bb357c8144e9")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:C")
+		(at 59.69 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91783baa-75f1-4c83-921d-f280b8e54094")
+		(property "Reference" "C45"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF 0603"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 60.6552 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "399-17568-1-ND"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "C0603C103J5REC7411"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51d794cf-8c6c-4160-805b-2051cc09ca00")
+		)
+		(pin "1"
+			(uuid "02639bc8-1993-4073-b678-e2676f85050e")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:C")
+		(at 140.97 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "967b0848-6837-48d6-87c8-1582b3322387")
+		(property "Reference" "C49"
+			(at 143.764 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000pF"
+			(at 143.764 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 141.9352 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1018-1-ND"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "CL10B102KB8NNNC"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f86e2156-4a8f-46f7-b7ec-dedaccbcdc17")
+		)
+		(pin "1"
+			(uuid "5b923378-644c-4ddc-b67b-594104792911")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "C49")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:C")
+		(at 57.15 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a33da0d2-6817-4a0f-a643-987d7a6fba36")
+		(property "Reference" "C43"
+			(at 60.96 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01uF 0603"
+			(at 60.96 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 58.1152 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "399-17568-1-ND"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "C0603C103J5REC7411"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c034a0d-dfd7-43b6-ab59-b010692bc301")
+		)
+		(pin "1"
+			(uuid "1e9a0284-5b77-4eb7-adbf-26ed23a23f80")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:C")
+		(at 76.2 39.37 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b127e883-2fa5-435d-870b-2012b44e4829")
+		(property "Reference" "C47"
+			(at 82.042 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V 1206"
+			(at 91.186 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 75.2348 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1181-1-ND"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "CL31A106MAHNNNE"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c225142d-c653-48ac-aed0-d8ccbc739e86")
+		)
+		(pin "1"
+			(uuid "c4549539-ced8-4e2d-8ac1-6f925ba65ee0")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:FerriteBead")
+		(at 48.26 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8f51e67-d31a-4c43-81bc-1c6a69db1c14")
+		(property "Reference" "FB8"
+			(at 50.546 28.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 50.8 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 48.26 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics "
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "490-5220-1-ND"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "BLM18PG330SN1D"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dbc9071-aeb9-4969-af5a-a32ad5bb3441")
+		)
+		(pin "2"
+			(uuid "42b1029c-b29f-4a9f-8065-d5da58a7c701")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "FB8")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "FB10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:C")
+		(at 76.2 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baa9ac79-ad1a-497c-a98a-8f1f35870495")
+		(property "Reference" "C48"
+			(at 81.788 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V 1206"
+			(at 90.678 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 75.2348 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1181-1-ND"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "CL31A106MAHNNNE"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64c78fb3-c43c-41f5-8f67-eec4f757be01")
+		)
+		(pin "1"
+			(uuid "43b2ed32-0289-4b63-a6f7-95f4b9c6eafd")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 48.26 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9ae839a-2daa-49c5-9ecf-e10d7d6209b6")
+		(property "Reference" "R36"
+			(at 48.26 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 48.26 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 48.514 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-10.0CRCT-ND"
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RC0805FR-0710RL "
+			(at 48.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e60ff03e-e5b7-4adc-b515-654e2d634286")
+		)
+		(pin "1"
+			(uuid "c054ad41-9baf-4534-a62e-99e943da1f4c")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:ADA4896-u_1")
+		(at 99.06 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d47b98ed-68f6-40c6-b17b-9f271a6033a8")
+		(property "Reference" "U11"
+			(at 105.918 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADA4896-2ARMZ"
+			(at 110.236 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Majed-footprints:RM_8_ADI"
+			(at 98.806 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+			(at 99.314 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Rail-to-Rail Input/Output Amplifiers, with disable, SC-70-6/SOT-23-6"
+			(at 98.806 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "505-ADA4896-2ARMZ-ND "
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc."
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "ADA4896-2ARMZ "
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ec3bb56-28f2-470f-b369-d08c12a5eafd")
+		)
+		(pin "3"
+			(uuid "e5583d10-f1df-4ac7-b09b-7ba722abd475")
+		)
+		(pin "7"
+			(uuid "49b3f073-7610-4d15-aa64-4bcc2d2e825f")
+		)
+		(pin "8"
+			(uuid "6d4928bd-5aee-4e82-a8cd-5eff8fddf6f2")
+		)
+		(pin "4"
+			(uuid "f0a2847a-916d-4e8c-a619-af69ca306221")
+		)
+		(pin "5"
+			(uuid "4ce99959-5b08-49ab-aa8a-c031714be111")
+		)
+		(pin "6"
+			(uuid "94306c7a-80b9-4b77-84d6-d117a6f150c2")
+		)
+		(pin "2"
+			(uuid "857cd132-da0a-4bad-a481-0713ffa3a835")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 133.35 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee6c2546-8059-49c7-a2b1-40d58681ab4d")
+		(property "Reference" "R38"
+			(at 133.35 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 133.35 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.096 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-33GRCT-ND"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RC0603FR-072KL"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b01259a0-0df8-4836-b7db-74f078701af0")
+		)
+		(pin "1"
+			(uuid "4e35b882-4e30-4f76-a0a5-b56b807b90f9")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 76.2 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee41045-8bd3-4a90-bc2e-356c9539c98c")
+		(property "Reference" "#PWR0103"
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c4085ef-4a28-4570-97fc-29b0dca9d75b")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/8f0d12f0-b179-4281-8c43-e729f8a20598"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/86831492-4864-4889-ae52-8b89506c40dd/dab339a6-33d6-4321-af03-924f4dc6f0cd"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

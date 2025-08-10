@@ -1,4 +1,4 @@
-26625151121054552
+26746500075501433
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70181,6 +70181,251 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+05-08-1725_ADI
+
+LT3093IDD-PBF 
+0
+13
+13
+Library
+05-08-1797_ADI-L
+
+AD4630-24BBCZ-RL 
+0
+64
+64
+Library
+APHF1608SEEQBDZGKC_KNB-L
+
+APHF1608SEEQBDZGKC 
+0
+4
+4
+Library
+CP_EIA-3528-21_Kemet-B
+Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+Library
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Library
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Library
+C_1206_3216Metric
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Library
+DFN-10_DD_LIT
+
+LT3042IDD-PBF 
+0
+11
+11
+Library
+D_SOD-923
+https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4
+Diode SOD923
+0
+2
+2
+Library
+ECS-1612MV-120-CN-TR
+
+
+0
+4
+4
+Library
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+Library
+LFCSP16_ADA4945-1ACPZ-R2_ADI-L
+
+ADA4945-1ACPZ-R2 
+0
+17
+17
+Library
+LQFP-100_14x14mm_P0.5mm
+LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+100
+100
+Library
+L_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor handsolder
+0
+2
+2
+Library
+Logo_Majed_small
+
+
+0
+0
+0
+Library
+MICROPAK10_2P1X1P6_ONS-L
+
+FXL2T245L10X 
+0
+10
+10
+Library
+MLP24_4P5X3P5_ONS
+
+FXLH42245MPX 
+0
+25
+25
+Library
+MSOP-8_MS_LIT-L
+
+LTC6655BHMS8-5-PBF 
+0
+8
+8
+Library
+Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_NoNPTH_97730356330
+Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356330 (https://www.we-online.com/components/products/datasheet/97730356330R.pdf), generated with kicad-footprint-generator
+Mounting M1.6 97730356330
+0
+5
+1
+Library
+PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/3-G-3.5; number of pins: 03; pin pitch: 3.50mm; Angled || order number: 1844223 8A 160V
+phoenix_contact connector MC_01x03_G_3.5mm
+0
+3
+3
+Library
+RM_8_ADI
+
+ADA4896-2ARMZ-R7 
+0
+8
+8
+Library
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Library
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Library
+R_1210_3225Metric_Pad1.30x2.65mm_HandSolder
+Resistor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Library
+SMA_Amphenol_132289_EdgeMount
+https://www.amphenolrf.com/library/download/link/link_id/595984/parent/132289/
+SMA
+0
+5
+2
+Library
+SO-8_S_LIT
+
+LT1763CS8-1.8-TRPBF 
+0
+8
+8
+Library
+SO-8_S_LIT-L
+
+LT1763CS8-5-TRPBF 
+0
+8
+8
+Library
+SOT-23
+SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+Library
+SOT-23-6
+SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+6
+6
+Library
+SOT-353_SC-70-5
+SOT-353, SC-70-5
+SOT-353 SC-70-5
+0
+5
+5
+Library
+SOT-363_SC-70-6
+SOT-363, SC-70-6, SC-88
+SOT-363 SC-70-6 SC-88
+0
+6
+6
+Library
+SPARKFUN_PRT-14417
+
+
+0
+6
+6
+Library
+SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS
+Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf
+switch tactile SPST 1P1T straight NO SMTR C&K
+0
+2
+2
+Library
+TestPoint_Pad_1.0x1.0mm
+SMD rectangular pad as test Point, square 1.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+Library
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
 Majed-footprints
 05-08-1715_ADI
 
@@ -70204,6 +70449,20 @@ LTC4359HDCB-TRPBF
 7
 Majed-footprints
 05-08-1725_ADI
+
+LT3093IDD-PBF 
+0
+13
+13
+Majed-footprints
+05-08-1725_ADI-L
+
+LT3093IDD-PBF 
+0
+13
+13
+Majed-footprints
+05-08-1725_ADI-M
 
 LT3093IDD-PBF 
 0
@@ -70329,6 +70588,41 @@ BNC edge
 5
 2
 Majed-footprints
+B3FS-101_OMR
+
+B3FS-1010 
+0
+4
+4
+Majed-footprints
+B3FS-101_OMR-L
+
+B3FS-1010 
+0
+4
+4
+Majed-footprints
+B3FS-101_OMR-M
+
+B3FS-1010 
+0
+4
+4
+Majed-footprints
+B3FS-1010
+
+
+0
+4
+4
+Majed-footprints
+BAT_3000
+
+
+0
+3
+3
+Majed-footprints
 CAPC0201X13N
 
 
@@ -70363,6 +70657,34 @@ CONN_SODIMM_200_TE-1473005-1
 0
 202
 200
+Majed-footprints
+CP_EIA-3528-21_Kemet-B
+Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+Majed-footprints
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Majed-footprints
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Majed-footprints
+C_1206_3216Metric
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
 Majed-footprints
 Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm
 Abracon Miniature Ceramic Smd Crystal ABM3B http://www.abracon.com/Resonators/abm3b.pdf, 5.0x3.2mm^2 package
@@ -70405,6 +70727,13 @@ LT3042IDD-PBF
 0
 11
 11
+Majed-footprints
+D_SOD-923
+https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4
+Diode SOD923
+0
+2
+2
 Majed-footprints
 ECS-250-20-30B-AGL-TR_25MHz-Crystal
 
@@ -70539,6 +70868,13 @@ L829-1X1T-91
 14
 13
 Majed-footprints
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+Majed-footprints
 LFCSP16_ADA4945-1ACPZ-R2_ADI
 
 ADA4945-1ACPZ-R7 
@@ -70560,6 +70896,13 @@ LMZ23605TZE
 32
 8
 Majed-footprints
+LQFP-100_14x14mm_P0.5mm
+LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+100
+100
+Majed-footprints
 LTM4625IY
 
 LTM4625IY 
@@ -70567,12 +70910,33 @@ LTM4625IY
 25
 25
 Majed-footprints
+L_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor handsolder
+0
+2
+2
+Majed-footprints
 Littelfuse_Nano2-OmniBlock
 
 
 0
 2
 2
+Majed-footprints
+Logo_Majed
+
+
+0
+0
+0
+Majed-footprints
+Logo_Majed_small
+
+
+0
+0
+0
 Majed-footprints
 MCP3551
 <hr><b>4*5mm size  ,  0.05inch pitch , 8pin pacage</b><hr>
@@ -70686,6 +71050,13 @@ Molex_Pico_Lock_5040500291_1x02-P1mm_Horizontal
 4
 3
 Majed-footprints
+Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_NoNPTH_97730356330
+Mounting Hardware, inside blind hole M1.6, height 3.5, Wuerth electronics 97730356330 (https://www.we-online.com/components/products/datasheet/97730356330R.pdf), generated with kicad-footprint-generator
+Mounting M1.6 97730356330
+0
+5
+1
+Majed-footprints
 NX3215SA-32.768KHZ-EXS00A-MU00525
 Crystals CRYSTAL 32.768KHZ 12.5PF SMD 
 
@@ -70731,6 +71102,13 @@ Majed-footprints
 PNX_3_Terminal_Block
 Phoenix
 connector terminal block phoenix
+0
+3
+3
+Majed-footprints
+PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal
+Generic Phoenix Contact connector footprint for: MC_1,5/3-G-3.5; number of pins: 03; pin pitch: 3.50mm; Angled || order number: 1844223 8A 160V
+phoenix_contact connector MC_01x03_G_3.5mm
 0
 3
 3
@@ -70805,6 +71183,27 @@ DRV8323HRTAR
 53
 42
 Majed-footprints
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Majed-footprints
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Majed-footprints
+R_1210_3225Metric_Pad1.30x2.65mm_HandSolder
+Resistor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Majed-footprints
 SIP-8(7pins)
 DCDC converter Recom
 
@@ -70822,6 +71221,13 @@ Majed-footprints
 SMA_Amphenol_132134_Vertical
 https://www.amphenolrf.com/downloads/dl/file/id/2187/product/2843/132134_customer_drawing.pdf
 SMA THT Female Jack Vertical ExtendedLegs
+0
+5
+2
+Majed-footprints
+SMA_Amphenol_132289_EdgeMount
+https://www.amphenolrf.com/library/download/link/link_id/595984/parent/132289/
+SMA
 0
 5
 2
@@ -70889,7 +71295,42 @@ SOIC127P1031X265-6N
 6
 6
 Majed-footprints
+SOT-23
+SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+Majed-footprints
+SOT-23-6
+SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+6
+6
+Majed-footprints
+SOT-353_SC-70-5
+SOT-353, SC-70-5
+SOT-353 SC-70-5
+0
+5
+5
+Majed-footprints
+SOT-363_SC-70-6
+SOT-363, SC-70-6, SC-88
+SOT-363 SC-70-6 SC-88
+0
+6
+6
+Majed-footprints
 SOT95P280X145-6N
+
+
+0
+6
+6
+Majed-footprints
+SPARKFUN_PRT-14417
 
 
 0
@@ -70902,6 +71343,13 @@ Variable Resistor
 0
 3
 3
+Majed-footprints
+SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS
+Tactile switch, SPST, 6.0x3.5 mm, H2.5 mm, straight, NO, gull wing leads: https://www.ckswitches.com/media/2779/pts636.pdf
+switch tactile SPST 1P1T straight NO SMTR C&K
+0
+2
+2
 Majed-footprints
 TE_4-794630-2
 
@@ -70944,6 +71392,34 @@ TPSM53604
 0
 26
 15
+Majed-footprints
+TestPoint_Pad_1.0x1.0mm
+SMD rectangular pad as test Point, square 1.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+Majed-footprints
+UFQFPN28-4x4mm
+
+STM32L031G6U6TR 
+0
+28
+28
+Majed-footprints
+UFQFPN28-4x4mm-L
+
+STM32L031G6U6TR 
+0
+28
+28
+Majed-footprints
+UFQFPN28-4x4mm-M
+
+STM32L031G6U6TR 
+0
+28
+28
 Majed-footprints
 USB_B_OST_USB-B1HSxx_Horizontal
 USB B receptacle, Horizontal, through-hole, http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf
@@ -70988,6 +71464,13 @@ focus
 0
 Majed-footprints
 hot_logo
+
+
+0
+0
+0
+Majed-footprints
+saudi
 
 
 0

@@ -10,14 +10,1162 @@
 		(rev "Rev 1")
 		(company "N-Well Labs\n\n")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "MountingHole_Pad_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_1_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:ESD9B5.0ST5G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD9B5.0ST5G"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?923*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD9B5.0ST5G_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD9B5.0ST5G_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "Logo1"
+				(at 2.54 1.1684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Majed's Logo"
+				(at 2.54 -1.143 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Majed-footprints:Logo_Majed"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Well Labs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "N-Well Labs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "majed-symbols:SYM_Hot_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Hot_Small"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.762 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hot surface warning symbol, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol logo hot surface warning heat"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Hot_Small_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 2.54 -1.905) (xy 0 2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.762 -0.254)
+					(mid -0.635 -0.635)
+					(end -0.762 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.254)
+					(mid 0.127 -0.635)
+					(end 0 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.762 -0.254)
+					(mid -0.889 0.127)
+					(end -0.762 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 -0.254)
+					(mid 0.889 -0.635)
+					(end 0.762 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.254)
+					(mid -0.127 0.127)
+					(end 0 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 -0.254)
+					(mid 0.635 0.127)
+					(end 0.762 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.397) (xy -1.27 -1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 200.66 123.19)
+		(end 283.21 163.83)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 80d8155d-f5aa-46b3-afaf-8ba1d035fc81)
+	)
+	(rectangle
+		(start 200.66 21.59)
+		(end 283.21 111.76)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c69cc8c9-1235-4db3-bd15-1541ff56b026)
+	)
 	(text "Power Generation & Filtering Subsystem\n"
 		(exclude_from_sim no)
-		(at 229.362 118.618 0)
+		(at 242.062 117.602 0)
 		(effects
 			(font
 				(face "Liberation Sans")
-				(size 3.81 3.81)
+				(size 3.048 3.048)
 				(bold yes)
 				(color 255 66 114 1)
 			)
@@ -26,7 +1174,7 @@
 	)
 	(text "Digital Control and Timing"
 		(exclude_from_sim no)
-		(at 226.568 16.764 0)
+		(at 240.284 17.526 0)
 		(effects
 			(font
 				(face "Liberation Sans")
@@ -39,7 +1187,7 @@
 	)
 	(text "Analog front-end"
 		(exclude_from_sim no)
-		(at 92.71 16.764 0)
+		(at 107.95 18.034 0)
 		(effects
 			(font
 				(face "Liberation Sans")
@@ -52,7 +1200,7 @@
 	)
 	(text "ADC Chip"
 		(exclude_from_sim no)
-		(at 91.948 118.618 0)
+		(at 107.188 119.888 0)
 		(effects
 			(font
 				(face "Liberation Sans")
@@ -63,31 +1211,258 @@
 		)
 		(uuid "f310cd0d-0aff-4056-9530-99d7b3352261")
 	)
+	(junction
+		(at 182.88 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10604c19-56a9-47a6-8e98-d583c465492c")
+	)
+	(junction
+		(at 173.99 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10c27585-60af-4d83-93b7-327bb7ec1c1b")
+	)
+	(junction
+		(at 162.56 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b0262b9-1a04-4c4f-9997-1f0081b2e209")
+	)
+	(junction
+		(at 39.37 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b07fe61-15b0-489f-92f2-d5b8cd7bed2e")
+	)
+	(junction
+		(at 166.37 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aef6a71-d705-43a6-af1f-a07c346d44ef")
+	)
+	(junction
+		(at 48.26 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "704fbb0e-84d3-4fc1-9d51-72de2d59cec2")
+	)
+	(junction
+		(at 44.45 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76496d0c-3761-4f8e-85dd-8120cea8ebf3")
+	)
+	(junction
+		(at 34.29 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "895c0a83-07ae-4951-bae4-47f618875f92")
+	)
+	(junction
+		(at 34.29 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a6055bc-3508-4e95-ac1f-666564c8e0e5")
+	)
+	(junction
+		(at 173.99 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95150ae1-d65f-4a5c-814f-519a77a26c85")
+	)
+	(junction
+		(at 182.88 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977adc6f-53a5-467f-b583-07b5f7b07ad6")
+	)
+	(junction
+		(at 87.63 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "979f1bf7-dcc6-47a7-aee9-2f41c40cb38d")
+	)
+	(junction
+		(at 125.73 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa8df7d4-8eb6-4222-95ac-185349dfae01")
+	)
+	(junction
+		(at 91.44 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b00b43aa-48c2-4636-8e03-fa15b306cd14")
+	)
+	(junction
+		(at 123.19 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0ab3960-06b4-4565-877c-ad316d298640")
+	)
+	(junction
+		(at 39.37 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edd4cb98-7572-447f-a4ea-5c5ad9be6e64")
+	)
+	(wire
+		(pts
+			(xy 125.73 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "010c1427-65ca-4d31-8150-6435658556fd")
+	)
+	(wire
+		(pts
+			(xy 162.56 39.37) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "018e72c5-61f3-4cbd-8458-ca218a8cb168")
+	)
+	(wire
+		(pts
+			(xy 34.29 83.82) (xy 39.37 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "08a75c6a-8255-418f-9e1c-41aefde5b245")
+	)
+	(wire
+		(pts
+			(xy 27.94 63.5) (xy 22.86 63.5)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "08bfcab6-dc8d-472d-9d9d-aa2692206366")
+	)
+	(wire
+		(pts
+			(xy 157.48 35.56) (xy 166.37 35.56)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "0ad6a00b-1a0a-46a3-8c59-60743afadc12")
+	)
 	(polyline
 		(pts
-			(xy 281.94 121.92) (xy 176.53 121.92)
+			(xy 13.97 111.76) (xy 13.97 21.59)
 		)
 		(stroke
 			(width 0.635)
 			(type solid)
 			(color 14 220 255 1)
 		)
-		(uuid "18742f99-5b77-4ace-81ac-5cbe140b9e28")
+		(uuid "0e8cb06d-e4d9-44ef-9182-29e44bba92a3")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 176.53 110.49) (xy 281.94 110.49)
+			(xy 44.45 34.29) (xy 44.45 58.42)
 		)
 		(stroke
 			(width 0.635)
-			(type solid)
-			(color 14 220 255 1)
+			(type default)
+			(color 1 3 255 1)
 		)
-		(uuid "2175a48e-50f6-4194-90df-60d6980cdfd7")
+		(uuid "106f00be-f0bb-4e3a-8ffa-3fb98ada314d")
+	)
+	(wire
+		(pts
+			(xy 39.37 92.71) (xy 39.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15acc46c-2018-4a09-919e-73d59eefceda")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "15b41ca3-74e3-48af-a774-34b7e58653f7")
+	)
+	(wire
+		(pts
+			(xy 173.99 58.42) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "15f2e470-df92-4fd2-93d2-97b20eceeffe")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "1656fe3f-886c-4d49-a9f1-33b98549375a")
+	)
+	(wire
+		(pts
+			(xy 166.37 35.56) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "17d82303-bf06-4ce5-9c6e-836ab6ddf022")
+	)
+	(wire
+		(pts
+			(xy 39.37 83.82) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "1976fc26-f256-44d1-9d03-36f6046e4d4c")
+	)
+	(wire
+		(pts
+			(xy 166.37 78.74) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "23ab5902-4a2f-4727-b22d-e9df34305ea9")
 	)
 	(polyline
 		(pts
-			(xy 21.59 110.49) (xy 168.91 110.49)
+			(xy 36.83 111.76) (xy 193.04 111.76)
 		)
 		(stroke
 			(width 0.635)
@@ -96,9 +1471,53 @@
 		)
 		(uuid "25cf0a17-9c1f-424c-8ef7-aa45b073fb23")
 	)
+	(wire
+		(pts
+			(xy 54.61 34.29) (xy 44.45 34.29)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "29185985-230f-4a96-8851-a8c0ef0d9c60")
+	)
+	(wire
+		(pts
+			(xy 91.44 138.43) (xy 91.44 95.25)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "2afc5204-f422-4f2f-a849-18f33d6ced6f")
+	)
+	(wire
+		(pts
+			(xy 54.61 39.37) (xy 48.26 39.37)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "2ea19302-ca65-49ad-8c37-99663f87b5ee")
+	)
+	(wire
+		(pts
+			(xy 87.63 52.07) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "3232b0e3-190b-470f-988b-3285fb628a07")
+	)
 	(polyline
 		(pts
-			(xy 168.91 121.92) (xy 21.59 121.92)
+			(xy 198.12 123.19) (xy 13.97 123.19)
 		)
 		(stroke
 			(width 0.635)
@@ -107,75 +1526,248 @@
 		)
 		(uuid "346d97a6-38d1-4e52-99e1-1c8929502ce6")
 	)
+	(wire
+		(pts
+			(xy 83.82 100.33) (xy 87.63 100.33)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "366d092b-8664-4cfe-ae5f-6fe3e2fe5d6d")
+	)
+	(wire
+		(pts
+			(xy 125.73 52.07) (xy 128.27 52.07)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "3807506a-5315-45d5-8b55-4e27316cb187")
+	)
+	(wire
+		(pts
+			(xy 34.29 58.42) (xy 34.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d008fda-7136-40e9-97bc-0940434d1026")
+	)
+	(wire
+		(pts
+			(xy 86.36 179.07) (xy 86.36 181.61)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "3d30c643-db0e-4645-ab09-c14851ac69c9")
+	)
+	(wire
+		(pts
+			(xy 34.29 85.09) (xy 34.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409b949c-2fe9-4b0b-be60-d974514d2020")
+	)
+	(wire
+		(pts
+			(xy 39.37 58.42) (xy 44.45 58.42)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "4159594f-4548-4680-a281-d62cd0a5ff44")
+	)
+	(wire
+		(pts
+			(xy 73.66 186.69) (xy 73.66 189.23)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "41de75b3-2751-4904-8417-97f4b1aebcbe")
+	)
+	(wire
+		(pts
+			(xy 48.26 83.82) (xy 54.61 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "43ae963e-70dd-4f4a-9ff9-c7d076d26285")
+	)
 	(polyline
 		(pts
-			(xy 176.53 105.41) (xy 176.53 110.49)
+			(xy 193.04 21.59) (xy 198.12 21.59)
 		)
 		(stroke
 			(width 0.635)
 			(type solid)
 			(color 14 220 255 1)
 		)
-		(uuid "3870ad7b-4591-420c-9816-58e3a637a057")
+		(uuid "4650e517-fe0f-4583-9239-2ade04d48591")
+	)
+	(wire
+		(pts
+			(xy 184.15 58.42) (xy 182.88 58.42)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "4d761999-ec92-4824-8f12-4bf603dc7c61")
+	)
+	(wire
+		(pts
+			(xy 218.44 71.12) (xy 218.44 67.31)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "5403de48-1b20-4679-a89a-8b03a2691a6a")
+	)
+	(wire
+		(pts
+			(xy 182.88 85.09) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c95dc3-abbb-4334-b108-65aeecf9caae")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.25) (xy 91.44 46.99)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "5578170d-6818-41e8-badc-951a8ebac5b7")
+	)
+	(wire
+		(pts
+			(xy 91.44 46.99) (xy 83.82 46.99)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "64d8a9f5-172f-4506-83b7-1430834f6543")
+	)
+	(wire
+		(pts
+			(xy 125.73 99.06) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "65339325-57e1-4085-b6bc-985d5715777e")
+	)
+	(wire
+		(pts
+			(xy 54.61 78.74) (xy 44.45 78.74)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "68ca27b5-3434-4b7d-b13e-e7b476db3710")
 	)
 	(polyline
 		(pts
-			(xy 168.91 110.49) (xy 168.91 20.32)
+			(xy 30.48 111.76) (xy 36.83 111.76)
 		)
 		(stroke
 			(width 0.635)
 			(type solid)
 			(color 14 220 255 1)
 		)
-		(uuid "47ee0639-3975-44c5-90c1-a51a7dd7ee5e")
+		(uuid "6ba2f55a-3d25-4466-9c3d-89286170ad38")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 21.59 105.41) (xy 21.59 110.49)
+			(xy 83.82 95.25) (xy 91.44 95.25)
 		)
 		(stroke
 			(width 0.635)
-			(type solid)
-			(color 14 220 255 1)
+			(type default)
+			(color 1 3 255 1)
 		)
-		(uuid "4a30a031-4f26-406d-9215-586491ccc003")
+		(uuid "6f5a9daf-95dc-407c-9f33-1e443a7a809b")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 281.94 110.49) (xy 281.94 20.32)
+			(xy 48.26 39.37) (xy 48.26 83.82)
 		)
 		(stroke
 			(width 0.635)
-			(type solid)
-			(color 14 220 255 1)
+			(type default)
+			(color 1 3 255 1)
 		)
-		(uuid "4ee7067b-44d8-4bab-92ef-6918095546e6")
+		(uuid "708eb964-1d39-4e87-bd8d-6cebda7fa28f")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 176.53 163.83) (xy 281.94 163.83)
+			(xy 189.23 63.5) (xy 190.5 63.5)
 		)
 		(stroke
 			(width 0.635)
-			(type solid)
-			(color 14 220 255 1)
+			(type default)
+			(color 1 3 255 1)
 		)
-		(uuid "63292a36-852b-469e-8af6-38869f0ebe3e")
+		(uuid "75a537f5-9688-4663-bcc8-bcea2dc19d00")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 281.94 121.92) (xy 281.94 163.83)
+			(xy 218.44 67.31) (xy 215.9 67.31)
 		)
 		(stroke
 			(width 0.635)
-			(type solid)
-			(color 14 220 255 1)
+			(type default)
+			(color 1 3 255 1)
 		)
-		(uuid "81b3dfee-4e0a-4247-a074-7b23f805341a")
+		(uuid "7a2463b1-990f-44b6-8f7d-c62fdfc39f2e")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 166.37 78.74)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "82fa5c3f-3096-4ccd-a87e-0b403af2487b")
 	)
 	(polyline
 		(pts
-			(xy 167.64 163.83) (xy 168.91 163.83)
+			(xy 182.88 163.83) (xy 198.12 163.83)
 		)
 		(stroke
 			(width 0.635)
@@ -184,20 +1776,129 @@
 		)
 		(uuid "89ac12c2-09aa-4210-922c-43131557ae4f")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 21.59 20.32) (xy 21.59 105.41)
+			(xy 41.91 179.07) (xy 41.91 181.61)
 		)
 		(stroke
 			(width 0.635)
-			(type solid)
-			(color 14 220 255 1)
+			(type default)
+			(color 1 3 255 1)
 		)
-		(uuid "9a765615-ddb4-4407-87c4-65d799368d2d")
+		(uuid "8c636795-3bfa-42d6-8bbc-6879888d1f56")
+	)
+	(wire
+		(pts
+			(xy 92.71 138.43) (xy 91.44 138.43)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "95757406-8c01-49b2-9f7a-3748f9756327")
+	)
+	(wire
+		(pts
+			(xy 39.37 60.96) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963f2080-0538-47aa-92fe-c0dbc48d1b13")
+	)
+	(wire
+		(pts
+			(xy 41.91 186.69) (xy 41.91 189.23)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "98bcc32e-ad21-48e5-a4e6-fcf8f37b9305")
+	)
+	(wire
+		(pts
+			(xy 87.63 146.05) (xy 87.63 100.33)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "9f725648-ca38-49ef-82af-afc67c6604e8")
+	)
+	(wire
+		(pts
+			(xy 92.71 146.05) (xy 87.63 146.05)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "a3a41393-b37d-42d1-a533-e3310ffec1f9")
+	)
+	(wire
+		(pts
+			(xy 33.02 58.42) (xy 34.29 58.42)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "a568b4c5-2ec9-41e0-a030-8d375301520a")
+	)
+	(wire
+		(pts
+			(xy 27.94 78.74) (xy 22.86 78.74)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "a5ebb1d7-3e32-459a-88ce-c523b00f810e")
+	)
+	(wire
+		(pts
+			(xy 125.73 146.05) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "a82b5df6-d23f-467c-a38e-b88507ccf07b")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "a976a955-fd05-4139-a54d-2e17d2bfe860")
+	)
+	(wire
+		(pts
+			(xy 121.92 146.05) (xy 125.73 146.05)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "aa223c72-328e-4449-a9d2-b047f0fc954c")
 	)
 	(polyline
 		(pts
-			(xy 62.23 163.83) (xy 21.59 163.83)
+			(xy 77.47 163.83) (xy 13.97 163.83)
 		)
 		(stroke
 			(width 0.635)
@@ -206,20 +1907,185 @@
 		)
 		(uuid "aa3080a5-e32a-496e-b5f2-1757f1e25422")
 	)
+	(wire
+		(pts
+			(xy 44.45 78.74) (xy 44.45 58.42)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "aac9e2a2-58d9-4cf0-8d9c-ee8cb945de94")
+	)
+	(wire
+		(pts
+			(xy 182.88 58.42) (xy 173.99 58.42)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "ac8add97-912b-4f71-93a4-54f470f27b45")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "af0d87ea-0735-4a87-b619-47d71fb0a0b8")
+	)
+	(wire
+		(pts
+			(xy 158.75 83.82) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "b19a830f-b9d3-4ffd-a328-b7c922a1ba84")
+	)
+	(wire
+		(pts
+			(xy 123.19 138.43) (xy 123.19 93.98)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "b52edf0a-7adc-42bc-8bf9-201cb0673435")
+	)
+	(wire
+		(pts
+			(xy 86.36 186.69) (xy 86.36 189.23)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "b5c04ca1-c3e7-4398-b972-4a2c860d248b")
+	)
 	(polyline
 		(pts
-			(xy 176.53 20.32) (xy 176.53 105.41)
+			(xy 198.12 111.76) (xy 193.04 111.76)
 		)
 		(stroke
 			(width 0.635)
 			(type solid)
 			(color 14 220 255 1)
 		)
-		(uuid "dd4b7b67-7d2e-448f-8903-2284a7ec0ba7")
+		(uuid "b9851471-f4a8-4186-babc-b3faf39adc92")
+	)
+	(wire
+		(pts
+			(xy 73.66 179.07) (xy 73.66 181.61)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "b9ad47a5-e856-4a35-9132-fceb74631ccf")
+	)
+	(wire
+		(pts
+			(xy 189.23 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "bd75ca86-c03e-489a-8668-42eac7c6bad4")
+	)
+	(wire
+		(pts
+			(xy 184.15 83.82) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "c0c06e6a-e9a8-40e4-a0b0-d4f86857e00a")
+	)
+	(wire
+		(pts
+			(xy 58.42 186.69) (xy 58.42 189.23)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "c2a46836-58b4-4979-850f-4931bf7484cf")
+	)
+	(wire
+		(pts
+			(xy 157.48 39.37) (xy 162.56 39.37)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "c598a69b-ea05-4c59-807b-14601b8cf581")
+	)
+	(wire
+		(pts
+			(xy 223.52 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "c791cc76-7ae0-44f9-8d2d-ce761f0a30f2")
+	)
+	(wire
+		(pts
+			(xy 123.19 46.99) (xy 128.27 46.99)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "ca67d9fa-937a-476f-9a15-e738b5e821df")
 	)
 	(polyline
 		(pts
-			(xy 62.23 163.83) (xy 167.64 163.83)
+			(xy 198.12 21.59) (xy 198.12 111.76)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "dc9159e4-4581-49e2-a6cf-12ad2722daf1")
+	)
+	(wire
+		(pts
+			(xy 121.92 138.43) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "de4de615-78c8-44c6-83d5-a7c3ac565c79")
+	)
+	(polyline
+		(pts
+			(xy 77.47 163.83) (xy 182.88 163.83)
 		)
 		(stroke
 			(width 0.635)
@@ -230,7 +2096,7 @@
 	)
 	(polyline
 		(pts
-			(xy 21.59 163.83) (xy 21.59 121.92)
+			(xy 13.97 163.83) (xy 13.97 123.19)
 		)
 		(stroke
 			(width 0.635)
@@ -241,18 +2107,7 @@
 	)
 	(polyline
 		(pts
-			(xy 281.94 20.32) (xy 176.53 20.32)
-		)
-		(stroke
-			(width 0.635)
-			(type solid)
-			(color 14 220 255 1)
-		)
-		(uuid "ece2bf00-f9cd-463a-9d38-1101ec91624b")
-	)
-	(polyline
-		(pts
-			(xy 168.91 20.32) (xy 21.59 20.32)
+			(xy 193.04 21.59) (xy 30.48 21.59)
 		)
 		(stroke
 			(width 0.635)
@@ -261,20 +2116,53 @@
 		)
 		(uuid "efd25350-e499-4aeb-94c1-8bf41ee9500b")
 	)
+	(wire
+		(pts
+			(xy 58.42 179.07) (xy 58.42 181.61)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "f1444481-fcdc-4e28-ac1e-1fcc7e94948b")
+	)
 	(polyline
 		(pts
-			(xy 176.53 121.92) (xy 176.53 163.83)
+			(xy 30.48 111.76) (xy 13.97 111.76)
 		)
 		(stroke
 			(width 0.635)
 			(type solid)
 			(color 14 220 255 1)
 		)
-		(uuid "f5269a2d-55e5-48b1-9591-4a5c2ed91b58")
+		(uuid "f24229da-6d1f-4278-8d83-70add0f124ff")
 	)
 	(polyline
 		(pts
-			(xy 168.91 121.92) (xy 168.91 163.83)
+			(xy 13.97 21.59) (xy 30.48 21.59)
+		)
+		(stroke
+			(width 0.635)
+			(type solid)
+			(color 14 220 255 1)
+		)
+		(uuid "f29bdab9-c748-4c89-bbb0-89256dcc91c9")
+	)
+	(wire
+		(pts
+			(xy 34.29 58.42) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "f81f2714-aacf-485e-97ee-ff0a93559838")
+	)
+	(polyline
+		(pts
+			(xy 198.12 123.19) (xy 198.12 163.83)
 		)
 		(stroke
 			(width 0.635)
@@ -283,8 +2171,3217 @@
 		)
 		(uuid "f9359f1f-ae6c-4529-b3f3-b32fb094900d")
 	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "ff060f03-84ef-4f8c-b3a1-c54839a88bed")
+	)
+	(wire
+		(pts
+			(xy 33.02 83.82) (xy 34.29 83.82)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 1 3 255 1)
+		)
+		(uuid "ffb96ebb-b381-4766-b9a2-77690083b82d")
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 86.36 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08c82b64-660c-45a2-ac72-d33e703feb8e")
+		(property "Reference" "#PWR010"
+			(at 86.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f220ac4e-bf82-49f1-b685-286ee8daf7ca")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingHole_Pad_1")
+		(lib_id "majed-symbols:MountingHole_Pad_1")
+		(at 58.42 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "11655fdc-79fa-4dcd-80d6-a11065e38604")
+		(property "Reference" "H2"
+			(at 61.214 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NPTH_PAD"
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_NoNPTH_97730356330"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37e2812d-d5e8-4c67-92d6-54fafea505af")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 22.86 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11953d0a-bfa0-4ad0-8c59-a8ba977468b4")
+		(property "Reference" "#PWR02"
+			(at 16.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb6294c3-5272-4222-b03d-1a4b353e3634")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 215.9 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "198b4438-2454-4492-8a5b-3753fa6ffb95")
+		(property "Reference" "#PWR017"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45402e10-23c6-4597-8dca-40a318c6dc6d")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:Conn_Coaxial")
+		(at 27.94 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b3726da-75ed-41cf-b3ff-d715e0823f92")
+		(property "Reference" "J1"
+			(at 24.13 59.9833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA_conn"
+			(at 24.13 57.4433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 27.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.582/132289rp.pdf"
+			(at 27.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RPSMA RCPT STR 50OHM EDGEMT"
+			(at 27.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol RF"
+			(at 27.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ACX1427-ND "
+			(at 27.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "132289RP"
+			(at 27.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "deee2de5-f1fa-4e51-ad99-8a26517c2232")
+		)
+		(pin "1"
+			(uuid "b37a7c64-30d2-41a4-8e14-b03583a6f3d6")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingHole_Pad_1")
+		(lib_id "majed-symbols:MountingHole_Pad_1")
+		(at 73.66 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2764aec9-b8e5-4377-bf0c-1fc5411fa300")
+		(property "Reference" "H3"
+			(at 76.454 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NPTH_PAD"
+			(at 73.66 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_NoNPTH_97730356330"
+			(at 73.66 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 73.66 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 73.66 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eacfc191-0af0-4216-93c6-964768a87bfe")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 39.37 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b599447-3003-41f9-b9c2-eb4d47253ddf")
+		(property "Reference" "R1"
+			(at 41.91 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50"
+			(at 41.91 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.386 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 50 OHM 0.1% 1/10W 0603"
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RT0603BRE0750RLCT-ND"
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RT0603BRE0750RL"
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7651b665-e18c-4fbd-b6e4-4df319c1cbdd")
+		)
+		(pin "2"
+			(uuid "71f6fe85-808d-434d-9652-867c4fdf4f13")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 41.91 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39150d15-4618-477a-9a1f-98f34fef1fb3")
+		(property "Reference" "#PWR07"
+			(at 41.91 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9654e9d5-5023-4dcb-8b4b-e0642b3b4158")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 182.88 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "400d6698-92c3-402f-82bb-946ec13e9b84")
+		(property "Reference" "#PWR014"
+			(at 182.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.198 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afff118c-5a42-423a-b1fe-8c6784677a54")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 73.66 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "439c5847-8421-4bd6-bee7-0ab5821c3317")
+		(property "Reference" "#PWR09"
+			(at 73.66 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "739eafbe-b3d5-4d7e-85b9-57225c3bb641")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 173.99 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "448d0bdd-a3d0-42d1-9679-b2b0a4800f20")
+		(property "Reference" "R8"
+			(at 171.45 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50"
+			(at 171.45 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 172.974 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 50 OHM 0.1% 1/10W 0603"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RT0603BRE0750RLCT-ND"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RT0603BRE0750RL"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c5a0ab7-e3e7-4da2-9b19-fa53f242c762")
+		)
+		(pin "2"
+			(uuid "93a3dd18-d31d-4c4a-adc7-c55823aca60f")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:ESD9B5.0ST5G")
+		(at 34.29 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e7d8b69-a085-4160-9ba1-078137bccf97")
+		(property "Reference" "D2"
+			(at 28.956 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B5.0ST5G"
+			(at 19.558 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+			(at 34.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ESD9B5.0ST5GOSCT-ND - Cut Tape"
+			(at 34.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "ESD9B5.0ST5G"
+			(at 34.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a477b37-c24b-4b5a-a34a-ef85ff3bdea4")
+		)
+		(pin "1"
+			(uuid "674513bd-1727-4242-9deb-e4e3a4da438a")
+		)
+		(instances
+			(project ""
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingHole_Pad_1")
+		(lib_id "majed-symbols:MountingHole_Pad_1")
+		(at 86.36 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "55c3d135-7653-40ce-a82d-d5f03c99d272")
+		(property "Reference" "H4"
+			(at 89.154 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NPTH_PAD"
+			(at 86.36 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_NoNPTH_97730356330"
+			(at 86.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 86.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 86.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51e0a03a-3f32-46d2-bc31-23895b0eb43b")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MountingHole_Pad_1")
+		(lib_id "majed-symbols:MountingHole_Pad_1")
+		(at 41.91 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a26c3fb-1461-4734-a27a-11d40656ec34")
+		(property "Reference" "H1"
+			(at 44.704 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NPTH_PAD"
+			(at 41.91 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H3.5mm_ThreadDepth2mm_NoNPTH_97730356330"
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 41.91 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "defbef67-8e65-49d1-9004-776092840d65")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:MountingHole")
+		(at 111.76 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bdf3c72-1096-4ada-a2c5-22ce8e4ce6cd")
+		(property "Reference" "Logo1"
+			(at 114.3 181.7116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Majed's Logo"
+			(at 109.982 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Majed-footprints:Logo_Majed_small"
+			(at 111.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Well Labs"
+			(at 111.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "N-Well Labs"
+			(at 111.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 111.76 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "Logo1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:ESD9B5.0ST5G")
+		(at 182.88 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61029f90-a927-4416-bffd-dbd442b6ad3c")
+		(property "Reference" "D3"
+			(at 177.8 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B5.0ST5G"
+			(at 168.402 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ESD9B5.0ST5GOSCT-ND - Cut Tape"
+			(at 182.88 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "ESD9B5.0ST5G"
+			(at 182.88 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f834a7b-70db-45e2-8a6c-e3dc5df448ba")
+		)
+		(pin "1"
+			(uuid "b2ac417c-475b-4658-bbe8-dd6e5c786319")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:Conn_Coaxial")
+		(at 27.94 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63efd07f-1c43-4b96-95c9-612ca109e647")
+		(property "Reference" "J2"
+			(at 24.13 82.2567 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA_conn"
+			(at 24.13 84.7967 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 27.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.582/132289rp.pdf"
+			(at 27.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RPSMA RCPT STR 50OHM EDGEMT"
+			(at 27.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol RF"
+			(at 27.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ACX1427-ND "
+			(at 27.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "132289RP"
+			(at 27.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9efe8c8e-6284-48f1-a837-2798cc4522d4")
+		)
+		(pin "1"
+			(uuid "b9cfd4e1-bf5e-4275-b8ed-a293fdf52364")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:Conn_Coaxial")
+		(at 189.23 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64224cb7-e04c-45f6-95b9-9600dd489b1c")
+		(property "Reference" "J3"
+			(at 187.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA_conn"
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.582/132289rp.pdf"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RPSMA RCPT STR 50OHM EDGEMT"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol RF"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ACX1427-ND "
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "132289RP"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc1b58ca-afa2-40f2-a9bf-0d9804ba63b1")
+		)
+		(pin "1"
+			(uuid "997caf97-3063-49ac-9e09-d6ad8ed371d3")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_Small_US")
+		(at 58.42 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72210013-b812-46c6-bcb5-5de1b2a8a880")
+		(property "Reference" "R4"
+			(at 60.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNI"
+			(at 55.88 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 58.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 58.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 58.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" ""
+			(at 58.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c69d0606-ec7b-45a0-bee6-12d407f013b9")
+		)
+		(pin "2"
+			(uuid "e1d27d4d-9e2d-4bf3-9930-e4028482a2d7")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 39.37 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "728a75ca-6e43-4541-8434-a8af39839401")
+		(property "Reference" "#PWR06"
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "441cb222-8c8a-401a-9c92-fa48f851fbbe")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 22.86 63.5 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a931d12-6ab2-49f5-a115-7652f84974d9")
+		(property "Reference" "#PWR01"
+			(at 16.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 63.5001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec26236-74e8-4a23-bd81-2ca373db4d41")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 34.29 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b3980d6-33f2-4792-9f59-9bbb32eb43f2")
+		(property "Reference" "#PWR03"
+			(at 34.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c42126d9-c353-471a-a4ac-47f311e6aeee")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_Small_US")
+		(at 86.36 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84278f5c-9db0-4709-aba8-abe2bbce360d")
+		(property "Reference" "R6"
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNI"
+			(at 83.82 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" ""
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ad231e8-f48f-4dbe-a927-e16efe5c9caa")
+		)
+		(pin "2"
+			(uuid "c7e8f0f4-9665-43de-ae1f-4b33a138ccea")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:Conn_Coaxial")
+		(at 189.23 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90a7018a-7ab6-4f2b-a990-6212b2d3495a")
+		(property "Reference" "J4"
+			(at 188.468 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA_conn"
+			(at 188.468 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.582/132289rp.pdf"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RPSMA RCPT STR 50OHM EDGEMT"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol RF"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ACX1427-ND "
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "132289RP"
+			(at 189.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "debf6393-2599-4152-a872-dd510f0e83eb")
+		)
+		(pin "1"
+			(uuid "e8e64adc-fdb9-485d-a528-f7b671551d79")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 173.99 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95fb3ac3-b626-4228-a82c-f1a7d4758d31")
+		(property "Reference" "R7"
+			(at 171.45 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50"
+			(at 171.45 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 172.974 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 50 OHM 0.1% 1/10W 0603"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RT0603BRE0750RLCT-ND"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RT0603BRE0750RL"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40a8f05e-d618-493a-afa5-1fbb9e64b08a")
+		)
+		(pin "2"
+			(uuid "c6ad57d6-826b-4704-b6e4-7bce5780baf7")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:SYM_Hot_Small")
+		(at 146.05 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "997d2ab9-2c2b-43f4-8c55-176b474f6a6a")
+		(property "Reference" "#SYM1"
+			(at 146.05 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Hot_Small"
+			(at 146.05 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.812 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hot surface warning symbol, small"
+			(at 146.05 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 34.29 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a45564b2-d8be-45c4-9687-832d91b045b5")
+		(property "Reference" "#PWR04"
+			(at 34.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "080f90d6-8336-4358-87f8-d7d1f8752d67")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:ESD9B5.0ST5G")
+		(at 34.29 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa127a61-462f-4784-9946-1ebd1d9cc538")
+		(property "Reference" "D1"
+			(at 29.21 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B5.0ST5G"
+			(at 19.812 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 34.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 34.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+			(at 34.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ESD9B5.0ST5GOSCT-ND - Cut Tape"
+			(at 34.29 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "ESD9B5.0ST5G"
+			(at 34.29 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "979dccdd-8343-4184-8f5d-bbad378432ae")
+		)
+		(pin "1"
+			(uuid "6b2ce351-e2f1-445f-b2b7-371925e32e41")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_Small_US")
+		(at 41.91 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aec68477-54b2-4d1d-ab2e-efa14121fc14")
+		(property "Reference" "R3"
+			(at 44.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNI"
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" ""
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80651c20-0798-4a7b-b0d3-63c5680a4075")
+		)
+		(pin "2"
+			(uuid "87a3a6c1-4f3c-482b-8bd1-28c7d694c766")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:Conn_Coaxial")
+		(at 218.44 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b47e2f53-00f8-44dd-ae7b-23f24949d956")
+		(property "Reference" "J5"
+			(at 214.63 74.6367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA_conn"
+			(at 217.17 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.582/132289rp.pdf"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RPSMA RCPT STR 50OHM EDGEMT"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol RF"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ACX1427-ND "
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "132289RP"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d49f883-f0b2-45e1-86e6-1d7b58d9afa2")
+		)
+		(pin "1"
+			(uuid "95df7a28-25c2-4f53-8e1b-e935d39950e9")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 39.37 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6373776-b1b9-4a4a-bffd-d8d2f44b7181")
+		(property "Reference" "#PWR05"
+			(at 39.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b033648f-fc56-443a-b654-f1e2a2b9f313")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 58.42 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca2a7314-252e-4bfb-8bed-59d2cf42170d")
+		(property "Reference" "#PWR08"
+			(at 58.42 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6d648e0-d521-4bb9-a103-6656d5a6d08b")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:ESD9B5.0ST5G")
+		(at 182.88 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8d2efc7-84e7-4bcf-bd80-68d460837881")
+		(property "Reference" "D4"
+			(at 177.8 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B5.0ST5G"
+			(at 168.402 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ESD9B5.0ST5GOSCT-ND - Cut Tape"
+			(at 182.88 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "ESD9B5.0ST5G"
+			(at 182.88 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05e70664-a8a4-4e37-8a1c-8b6f1a6479ce")
+		)
+		(pin "1"
+			(uuid "62ca19ea-9c8f-4854-8b0c-219a31edb529")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 173.99 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d949cdfb-d9ad-4396-948c-c9b1d02471bf")
+		(property "Reference" "#PWR011"
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98f03da5-e518-4f5b-90e2-a6c8c65381a1")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 173.99 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "def7e17f-9d2e-4ffa-8738-4fcdc280792c")
+		(property "Reference" "#PWR012"
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5dd19d8-d3d2-4d35-ab9a-81c9d575431a")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_US")
+		(at 39.37 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e43c9edf-2b40-40f6-9b46-d5d0a54ef0bc")
+		(property "Reference" "R2"
+			(at 41.91 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50"
+			(at 41.91 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.386 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 50 OHM 0.1% 1/10W 0603"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RT0603BRE0750RLCT-ND"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" "RT0603BRE0750RL"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ec1ed10-6236-44cf-af72-d70df4da3a69")
+		)
+		(pin "2"
+			(uuid "929eb5f9-f2e5-4eb2-9588-c8ca04530003")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:R_Small_US")
+		(at 73.66 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f26fcb2a-34d3-4f73-a0d6-717a8ec5bc26")
+		(property "Reference" "R5"
+			(at 76.2 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNI"
+			(at 71.12 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg part #" ""
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9d8cb7e-9091-4e00-ba43-7bd657c32e39")
+		)
+		(pin "2"
+			(uuid "ac41f68c-9a4f-425f-b1ce-014c171c4f50")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 190.5 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f91fd240-630a-4e85-be38-fd8f10d011b7")
+		(property "Reference" "#PWR015"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 63.5001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be74e80a-9a97-4fae-87f2-c919303e4230")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 190.5 78.74 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa5e8926-2631-4f45-8896-e16bf1e54538")
+		(property "Reference" "#PWR016"
+			(at 196.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06213f7f-34ec-438a-97e0-3df01d822f6b")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "majed-symbols:GND")
+		(at 182.88 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffe511d8-eea2-4355-8280-1a2d0b7b6cb1")
+		(property "Reference" "#PWR013"
+			(at 182.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.944 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cc91561-da25-454c-bb5d-a7cef34c3aba")
+		)
+		(instances
+			(project "NanoPulse"
+				(path "/86831492-4864-4889-ae52-8b89506c40dd"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 77.47 129.54)
+		(at 92.71 130.81)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -299,7 +5396,7 @@
 		)
 		(uuid "00f50ae2-5d28-4940-8347-0ef8bb69fb96")
 		(property "Sheetname" "ADC"
-			(at 88.138 128.524 0)
+			(at 103.378 129.794 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -308,13 +5405,53 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 79.756 157.48 0)
+			(at 94.996 158.75 0)
 			(effects
 				(font
 					(size 2.032 2.032)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "IN_A+" input
+			(at 92.71 138.43 180)
+			(uuid "745847c1-e4f7-490e-ba28-f3e5a7bab971")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_A-" input
+			(at 92.71 146.05 180)
+			(uuid "232879c7-29e0-49b4-9d39-c124e1ba82b3")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_B+" input
+			(at 121.92 138.43 0)
+			(uuid "87938962-cbcd-46fb-9067-ce69461288dc")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_B-" input
+			(at 121.92 146.05 0)
+			(uuid "1ff9b363-7daa-4643-9ac9-9459f9335478")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -326,7 +5463,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 74.93)
+		(at 54.61 76.2)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -341,7 +5478,7 @@
 		)
 		(uuid "2e9bc67b-6ee1-4d35-a3fe-f626da65b648")
 		(property "Sheetname" "Single To Differential Driver Stage CH A"
-			(at 28.194 73.152 0)
+			(at 55.118 74.422 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -350,13 +5487,53 @@
 			)
 		)
 		(property "Sheetfile" "Single_To_Diff_Driver_Stage.kicad_sch"
-			(at 27.686 103.124 0)
+			(at 42.926 104.394 0)
 			(effects
 				(font
 					(size 2.032 2.032)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "S_External_IN+" input
+			(at 54.61 78.74 180)
+			(uuid "8d6b3728-9f59-4eef-9e64-d82332397410")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(pin "S_External_IN-" input
+			(at 54.61 83.82 180)
+			(uuid "21b81998-90c5-412a-bffd-2d7c6aca75c5")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(pin "S_Filtered_IN+" output
+			(at 83.82 95.25 0)
+			(uuid "43825ecb-7fee-4925-bdf7-bfec105d3c0e")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(pin "S_Filtered_IN-" output
+			(at 83.82 100.33 0)
+			(uuid "ad336469-3449-4c94-b64c-22c2ed7581c9")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -368,7 +5545,7 @@
 		)
 	)
 	(sheet
-		(at 242.57 29.21)
+		(at 207.01 27.94)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -383,7 +5560,7 @@
 		)
 		(uuid "4e526956-09b7-4be8-ad1c-72f0b7e653f8")
 		(property "Sheetname" "Voltage Translator"
-			(at 243.078 27.94 0)
+			(at 207.518 26.67 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -392,7 +5569,7 @@
 			)
 		)
 		(property "Sheetfile" "Voltage_Translator.kicad_sch"
-			(at 235.712 57.404 0)
+			(at 200.152 56.134 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -410,7 +5587,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 29.21)
+		(at 54.61 30.48)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -425,7 +5602,7 @@
 		)
 		(uuid "8f0d12f0-b179-4281-8c43-e729f8a20598")
 		(property "Sheetname" "ADC Driver Stage - Final Buffer CH A"
-			(at 26.416 28.1174 0)
+			(at 54.61 29.21 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -434,13 +5611,53 @@
 			)
 		)
 		(property "Sheetfile" "ADC_Driver_Stage-Final-Buffer.kicad_sch"
-			(at 27.178 57.404 0)
+			(at 42.418 58.674 0)
 			(effects
 				(font
 					(size 2.032 2.032)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "External_IN+" input
+			(at 54.61 34.29 180)
+			(uuid "45332c18-8abd-4940-a6b3-90244ebd6a0b")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(pin "External_IN-" input
+			(at 54.61 39.37 180)
+			(uuid "1368c271-a52a-4b8d-be96-5640413348c8")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(pin "Filtered_IN+" output
+			(at 83.82 46.99 0)
+			(uuid "da75edc9-c796-4f54-84ff-a9bc8e527a64")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(pin "Filtered_IN-" output
+			(at 83.82 52.07 0)
+			(uuid "a124db5e-c823-46a4-9cda-d3c1a97a9605")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -452,7 +5669,7 @@
 		)
 	)
 	(sheet
-		(at 213.36 74.93)
+		(at 250.19 27.94)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -467,7 +5684,7 @@
 		)
 		(uuid "a20d702c-1974-49a0-ac5a-8cb500defea7")
 		(property "Sheetname" "MCU-FPGA"
-			(at 217.17 73.152 0)
+			(at 254 26.162 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -476,7 +5693,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU-FPGA.kicad_sch"
-			(at 209.804 103.124 0)
+			(at 246.634 56.134 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -494,7 +5711,7 @@
 		)
 	)
 	(sheet
-		(at 212.09 129.54)
+		(at 227.33 134.62)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -509,7 +5726,7 @@
 		)
 		(uuid "d316b2c4-631c-4bcc-91a6-e005f13d84d0")
 		(property "Sheetname" "Power Management"
-			(at 211.328 127.508 0)
+			(at 226.568 132.588 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -518,7 +5735,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Management_sch.kicad_sch"
-			(at 202.946 157.734 0)
+			(at 218.186 162.814 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -536,7 +5753,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 29.21)
+		(at 128.27 30.48)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -551,7 +5768,7 @@
 		)
 		(uuid "dab339a6-33d6-4321-af03-924f4dc6f0cd")
 		(property "Sheetname" "ADC Driver Stage - Final Buffer CH B"
-			(at 100.076 28.1174 0)
+			(at 127.762 29.718 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -560,13 +5777,53 @@
 			)
 		)
 		(property "Sheetfile" "ADC_Driver_Stage-Final-Buffer.kicad_sch"
-			(at 100.838 57.404 0)
+			(at 116.078 58.674 0)
 			(effects
 				(font
 					(size 2.032 2.032)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "External_IN+" input
+			(at 157.48 35.56 0)
+			(uuid "f400342a-f489-477d-abcb-7bf89fb27733")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(pin "External_IN-" input
+			(at 157.48 39.37 0)
+			(uuid "a8775981-f68c-4804-a510-6a148bee8a2b")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(pin "Filtered_IN+" output
+			(at 128.27 46.99 180)
+			(uuid "ce028c6f-746b-461d-859d-569270d7a990")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(pin "Filtered_IN-" output
+			(at 128.27 52.07 180)
+			(uuid "8582716b-5903-422a-a284-7c26fb4c600a")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -578,7 +5835,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 29.21)
+		(at 228.6 64.77)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -593,7 +5850,7 @@
 		)
 		(uuid "dea7d86a-b52d-4791-bfea-897f34946032")
 		(property "Sheetname" "Trigger Circuit"
-			(at 187.452 28.194 0)
+			(at 231.902 63.754 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -602,13 +5859,23 @@
 			)
 		)
 		(property "Sheetfile" "Trigger_Circuit.kicad_sch"
-			(at 179.324 57.404 0)
+			(at 223.774 92.964 0)
 			(effects
 				(font
 					(size 2.032 2.032)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "Trigger_Signal" input
+			(at 228.6 76.2 180)
+			(uuid "b4fb128b-2a1d-4794-b28b-727f57b39c63")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -620,7 +5887,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 74.93)
+		(at 129.54 74.93)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -635,7 +5902,7 @@
 		)
 		(uuid "efab2b5c-4396-4aa9-b4a3-81687e05e792")
 		(property "Sheetname" "Single To Differential Driver Stage CH B"
-			(at 101.6 73.152 0)
+			(at 128.016 74.676 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -644,13 +5911,53 @@
 			)
 		)
 		(property "Sheetfile" "Single_To_Diff_Driver_Stage.kicad_sch"
-			(at 101.346 103.124 0)
+			(at 117.856 103.124 0)
 			(effects
 				(font
 					(size 2.032 2.032)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "S_External_IN+" input
+			(at 158.75 78.74 0)
+			(uuid "c46a0e53-06b4-4c25-8988-3b1347d0229f")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(pin "S_External_IN-" input
+			(at 158.75 83.82 0)
+			(uuid "6ac2b2e6-bc02-4bc4-b2a2-f0e5f304a715")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(pin "S_Filtered_IN+" output
+			(at 129.54 93.98 180)
+			(uuid "99d4a7f9-1c23-4f13-afb7-27421047866e")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(pin "S_Filtered_IN-" output
+			(at 129.54 99.06 180)
+			(uuid "d7d03ebd-71d0-40a9-bb44-ff620d0d7e4b")
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
 			)
 		)
 		(instances
